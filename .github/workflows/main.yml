@@ -28,7 +28,7 @@ jobs:
       #- name: Run itv_all
         #run: python ${{ github.workspace }}/itv_all.py
 
-      - name: Run cctv
+      - name: Run zhgxtv
         run: python ${{ github.workspace }}/zhgxtv.py
         
       #- name: Run weishi
