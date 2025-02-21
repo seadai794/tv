@@ -29,7 +29,7 @@ jobs:
         #run: python ${{ github.workspace }}/itv_all.py
 
       - name: Run cctv
-        run: python ${{ github.workspace }}/new.py
+        run: python ${{ github.workspace }}/zhgxtv.py
         
       #- name: Run weishi
         #run: python ${{ github.workspace }}/weishi.py
