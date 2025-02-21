@@ -2,7 +2,7 @@ name: itvlist
 
 on:
   schedule:
-    - cron: '50 13 * * *'
+    - cron: '0 14 * * *'
   push:
     branches:
       - main
@@ -28,8 +28,8 @@ jobs:
       #- name: Run itv_all
         #run: python ${{ github.workspace }}/itv_all.py
 
-      - name: Run zhgxtv
-        run: python ${{ github.workspace }}/zhgxtv.py
+      - name: Run CCTV
+        run: python ${{ github.workspace }}/ZHGXTV.py
         
       #- name: Run weishi
         #run: python ${{ github.workspace }}/weishi.py
