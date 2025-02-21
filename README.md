@@ -10,8 +10,12 @@
 
   在看电视直播软件中直接输入以下任一地址即可：
   
+  本节目源每天凌晨1点自动更新，m3u文件加入了台标。
+  
       https://ghproxy.net/https://raw.githubusercontent.com/seadai794/tv/main/itvlist.txt
+      https://ghproxy.net/https://raw.githubusercontent.com/seadai794/tv/main/itvlist.m3u
       https://raw.githubusercontent.com/seadai794/tv/main/itvlist.txt
+      https://raw.githubusercontent.com/seadai794/tv/main/itvlist.m3u
   
 2.想自己获取电视直播地址的可采用以下方法：
 
@@ -36,4 +40,6 @@
 4.推荐在本地电脑运行，不推荐在github运行。github获得的数据不准确，测速不准。
 
 5.udpxy目录为部分组播源。
+
+声明：本项目来自ssili126/tv/。   稍作了修改。
 
