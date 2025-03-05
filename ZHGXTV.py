@@ -27,12 +27,6 @@ urls = [
 "http://1.199.136.1:8878",
 "http://1.24.190.1:10080",
 "http://1.24.190.1:10089",
-"http://1.59.160.1:9000",
-"http://1.59.161.1:9000",
-"http://1.59.163.1:9000",
-"http://1.59.164.1:9000",
-"http://1.59.165.1:9000",
-"http://1.59.167.1:9000",
 "http://1.70.10.1:808",
 "http://1.70.11.1:808",
 "http://1.70.14.1:808",
@@ -166,7 +160,6 @@ urls = [
 "http://117.70.234.1:808",
 "http://117.70.234.1:888",
 "http://117.70.235.1:808",
-"http://117.72.36.1:9099",
 "http://117.80.41.1:8888",
 "http://118.249.4.1:8082",
 "http://118.81.213.1:8088",
@@ -414,8 +407,6 @@ urls = [
 "http://42.80.41.1:888",
 "http://47.100.188.1:808",
 "http://47.104.102.1:808",
-"http://47.108.221.1:9089",
-"http://47.108.221.1:9099",
 "http://47.109.181.1:88",
 "http://47.99.164.1:808",
 "http://49.76.42.1:12999",
@@ -587,33 +578,52 @@ for url in valid_urls:
                         name = name.replace(")", "")
                         name = re.sub(r"CCTV(\d+)台", r"CCTV\1", name)
                         name = name.replace("CCTV1综合", "CCTV1")
+                        name = name.replace("CCTV一套", "CCTV1")
+                        name = name.replace("CCTV2经济", "CCTV2")
                         name = name.replace("CCTV2财经", "CCTV2")
+                        name = name.replace("CCTV二套", "CCTV2")
                         name = name.replace("CCTV3综艺", "CCTV3")
+                        name = name.replace("CCTV三套", "CCTV3")
                         name = name.replace("CCTV4国际", "CCTV4")
                         name = name.replace("CCTV4中文国际", "CCTV4")
                         name = name.replace("CCTV4欧洲", "CCTV4")
+                        name = name.replace("CCTV四套", "CCTV4")
                         name = name.replace("CCTV5体育", "CCTV5")
+                        name = name.replace("CCTV五套", "CCTV5")
                         name = name.replace("CCTV6电影", "CCTV6")
+                        name = name.replace("CCTV六套", "CCTV6")
                         name = name.replace("CCTV7军事", "CCTV7")
                         name = name.replace("CCTV7军农", "CCTV7")
                         name = name.replace("CCTV7农业", "CCTV7")
+                        name = name.replace("CCTV七套", "CCTV7")
                         name = name.replace("CCTV7国防军事", "CCTV7")
                         name = name.replace("CCTV8电视剧", "CCTV8")
+                        name = name.replace("CCTV八套", "CCTV8")
                         name = name.replace("CCTV9记录", "CCTV9")
                         name = name.replace("CCTV9纪录", "CCTV9")
+                        name = name.replace("CCTV九套", "CCTV9")
                         name = name.replace("CCTV10科教", "CCTV10")
+                        name = name.replace("CCTV十套", "CCTV10")
                         name = name.replace("CCTV11戏曲", "CCTV11")
+                        name = name.replace("CCTV十一", "CCTV11")
                         name = name.replace("CCTV12社会与法", "CCTV12")
+                        name = name.replace("CCTV十二", "CCTV12")
                         name = name.replace("CCTV13新闻", "CCTV13")
                         name = name.replace("CCTV新闻", "CCTV13")
+                        name = name.replace("CCTV十三", "CCTV13")
                         name = name.replace("CCTV14少儿", "CCTV14")
+                        name = name.replace("CCTV十四", "CCTV14")
+                        name = name.replace("CCTV少儿", "CCTV14")
                         name = name.replace("CCTV15音乐", "CCTV15")
+                        name = name.replace("CCTV十五", "CCTV15")
                         name = name.replace("CCTV16奥林匹克", "CCTV16")
                         name = name.replace("CCTV17农业农村", "CCTV17")
                         name = name.replace("CCTV17农业", "CCTV17")
+                        name = name.replace("CCTV十七", "CCTV17")
                         name = name.replace("CCTV5+体育赛视", "CCTV5+")
                         name = name.replace("CCTV5+体育赛事", "CCTV5+")
                         name = name.replace("CCTV5+体育", "CCTV5+")
+                        name = name.replace("CCTVNEWS", "CGTN")
                         results.append(f"{name},{urld}")
         except:
             continue
