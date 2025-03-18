@@ -1,27 +1,7 @@
 央视频道,#genre#
-CCTV5+,http://1.24.190.134:10080/hls/16/index.m3u8
-CCTV11,http://1.24.190.134:10080/hls/11/index.m3u8
-CCTV13,http://1.24.190.134:10080/hls/13/index.m3u8
-CCTV15,http://1.24.190.134:10080/hls/15/index.m3u8
 
 卫视频道,#genre#
-东南卫视,http://1.24.190.134:10080/hls/88/index.m3u8
-云南卫视,http://1.24.190.134:10080/hls/92/index.m3u8
-兵团卫视,http://1.24.190.134:10080/hls/89/index.m3u8
-北京卫视,http://1.24.190.134:10080/hls/68/index.m3u8
-天津卫视,http://1.24.190.134:10080/hls/69/index.m3u8
-广东卫视,http://1.24.190.134:10080/hls/79/index.m3u8
-浙江卫视,http://1.24.190.134:10080/hls/63/index.m3u8
-海南卫视,http://1.24.190.134:10080/hls/99/index.m3u8
-贵州卫视,http://1.24.190.134:10080/hls/91/index.m3u8
-辽宁卫视,http://1.24.190.134:10080/hls/72/index.m3u8
-青海卫视,http://1.24.190.134:10080/hls/96/index.m3u8
 
 河南频道,#genre#
 
 其他频道,#genre#
-IPTV法制,http://1.24.190.134:10080/hls/133/index.m3u8
-内蒙古农牧,http://1.24.190.134:10080/hls/35/index.m3u8
-内蒙古少儿,http://1.24.190.134:10080/hls/36/index.m3u8
-包头经济生活,http://1.24.190.134:10080/hls/28/index.m3u8
-卡酷动画,http://1.24.190.134:10080/hls/50/index.m3u8
