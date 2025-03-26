@@ -14,9 +14,7 @@
   
       https://ghproxy.net/https://raw.githubusercontent.com/seadai794/tv/main/itvlist.txt
       https://ghproxy.net/https://raw.githubusercontent.com/seadai794/tv/main/itvlist.m3u
-      https://raw.githubusercontent.com/seadai794/tv/main/itvlist.txt
-      https://raw.githubusercontent.com/seadai794/tv/main/itvlist.m3u
-  
+        
 2.想自己获取电视直播地址的可采用以下方法：
 
   windows电脑：
