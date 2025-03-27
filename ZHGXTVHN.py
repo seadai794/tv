@@ -7,11 +7,12 @@ import os
 import threading
 from queue import Queue
 import eventlet
+import json
+
 eventlet.monkey_patch()
 
-
+# ...（保持原有的URL列表和辅助函数不变）...
 urls = [
-
 "http://1.183.139.1:9001",
 "http://1.183.141.1:8001",
 "http://1.191.154.1:9000",
@@ -348,7 +349,6 @@ urls = [
 "http://221.0.78.1:2082",
 "http://221.0.78.1:2581",
 "http://221.0.78.1:1181",
-"http://221.0.78.1:881",
 "http://221.201.131.1:771",
 "http://221.201.131.1:777",
 "http://221.205.239.1:8088",
@@ -625,7 +625,8 @@ for url in valid_urls:
                         name = name.replace("CCTV5+体育赛事", "CCTV5+")
                         name = name.replace("CCTV5+体育", "CCTV5+")
                         name = name.replace("CCTVNEWS", "CGTN")
-                        results.append(f"{name},{urld}")
+                        #results.append(f"{name},{urld}")
+                        results.append((name, urld))  # 存储为元组而不是字符串
         except:
             continue
     except:
@@ -635,9 +636,9 @@ for url in valid_urls:
 channels = []
 
 for result in results:
-    line = result.strip()
+
     if result:
-        channel_name, channel_url = result.split(',')
+        channel_name, channel_url = result[0], result[1]
         channels.append((channel_name, channel_url))
 
 # 线程安全的队列，用于存储下载任务
@@ -720,92 +721,177 @@ results.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
 results.sort(key=lambda x: channel_key(x[0]))
 
 
-result_counter = 8  # 每个频道需要的个数
+# ...（保持原有的URL列表和辅助函数不变）...
 
-with open("itvlist.txt", 'w', encoding='utf-8') as file:
-    # 央视频道
-    channel_counters = {}
-    file.write('央视频道,#genre#\n')
-    for result in results:
-        channel_name, channel_url, speed = result
-        if 'CCTV' in channel_name:
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter: continue
-            file.write(f"{channel_name},{channel_url}\n")
-            channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
+# 修改后的分类处理逻辑
+def generate_output_files(results):
+    result_counter = 10  # 每个频道需要的个数
 
-    # 卫视频道（）
-    channel_counters = {}
-    file.write('\n卫视频道,#genre#\n')
-    for result in results:
-        channel_name, channel_url, speed = result
-        if '卫视' in channel_name:
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter: continue
-            file.write(f"{channel_name},{channel_url}\n")
-            channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
+    # 生成txt文件
+    with open("itvlist.txt", 'w', encoding='utf-8') as file:
+        # 央视频道
+        channel_counters = {}
+        file.write('央视频道,#genre#\n')
+        for result in results:
+            channel_name, channel_url = result[0], result[1]  # 直接解包元组
+            if 'CCTV' in channel_name:
+                if channel_name in channel_counters:
+                    if channel_counters[channel_name] >= result_counter: continue
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
-    # 河南频道
-    channel_counters = {}
-    file.write('\n河南频道,#genre#\n')
-    for result in results:
-        channel_name, channel_url, speed = result
-        if '河南' in channel_name or '郑州' in channel_name or '浉河' in channel_name or '郑州' in channel_name or '漯河' in channel_name or '信阳' in channel_name or '中原' in channel_name:
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter: continue
-            file.write(f"{channel_name},{channel_url}\n")
-            channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
+        # 卫视频道
+        channel_counters = {}
+        file.write('\n卫视频道,#genre#\n')
+        for result in results:
+            channel_name, channel_url = result[0], result[1]  # 直接解包元组
+            if '卫视' in channel_name:
+                if channel_name in channel_counters:
+                    if channel_counters[channel_name] >= result_counter: continue
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
-    # 其他频道
-    channel_counters = {}
-    file.write('\n其他频道,#genre#\n')
-    for result in results:
-        channel_name, channel_url, speed = result
-        if all(key not in channel_name for key in ['CCTV', '卫视', '漯河','浉河','信阳','河南', '郑州', '中原']):
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter: continue
-            file.write(f"{channel_name},{channel_url}\n")
-            channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
+        # 少儿频道
+        channel_counters = {}
+        file.write('\n少儿频道,#genre#\n')
+        for result in results:
+            channel_name, channel_url = result[0], result[1]  # 直接解包元组
+            if any(key in channel_name for key in ['卡酷', '少儿', '炫动', '卡通']):
+                if channel_name in channel_counters:
+                    if channel_counters[channel_name] >= result_counter: continue
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
-with open("itvlist.m3u", 'w', encoding='utf-8') as file:
-    file.write('#EXTM3U\n')
-    
-    # 央视频道
-    channel_counters = {}
-    for result in results:
-        channel_name, channel_url, speed = result
-        if 'CCTV' in channel_name:
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter: continue
-            file.write(f"#EXTINF:-1 group-title=\"央视频道\",{channel_name}\n{channel_url}\n")
-            channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
+        # 电影频道
+        channel_counters = {}
+        file.write('\n电影频道,#genre#\n')
+        for result in results:
+            channel_name, channel_url = result[0], result[1]  # 直接解包元组
+            if any(key in channel_name for key in ['影院', '电影']):
+                if channel_name in channel_counters:
+                    if channel_counters[channel_name] >= result_counter: continue
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
-    # 卫视频道
-    channel_counters = {}
-    for result in results:
-        channel_name, channel_url, speed = result
-        if '卫视' in channel_name:
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter: continue
-            file.write(f"#EXTINF:-1 group-title=\"卫视频道\",{channel_name}\n{channel_url}\n")
-            channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
+        # 河南频道
+        channel_counters = {}
+        file.write('\n河南频道,#genre#\n')
+        for result in results:
+            channel_name, channel_url = result[0], result[1]  # 直接解包元组
+            if any(key in channel_name for key in ['河南', '郑州', '浉河', '漯河', '信阳', '中原']):
+                if channel_name in channel_counters:
+                    if channel_counters[channel_name] >= result_counter: continue
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
-    # 河南频道
-    channel_counters = {}
-    for result in results:
-        channel_name, channel_url, speed = result
-        if '河南' in channel_name or '郑州' in channel_name or '浉河' in channel_name or '郑州' in channel_name or '漯河' in channel_name or '信阳' in channel_name or '中原' in channel_name:
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter: continue
-            file.write(f"#EXTINF:-1 group-title=\"河南频道\",{channel_name}\n{channel_url}\n")
-            channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
+        # 其他频道
+        channel_counters = {}
+        file.write('\n其他频道,#genre#\n')
+        for result in results:
+            channel_name, channel_url = result[0], result[1]  # 直接解包元组
+            if all(key not in channel_name for key in ['CCTV', '卫视', '漯河', '浉河', '信阳', 
+                                                     '河南', '郑州', '中原', '卡酷', '少儿', 
+                                                     '炫动', '卡通', '影院', '电影']):
+                if channel_name in channel_counters:
+                    if channel_counters[channel_name] >= result_counter: continue
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
-    # 其他频道
-    channel_counters = {}
-    for result in results:
-        channel_name, channel_url, speed = result
-        if all(key not in channel_name for key in ['CCTV', '卫视', '漯河','浉河','信阳','河南', '郑州', '中原']):
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter: continue
-            file.write(f"#EXTINF:-1 group-title=\"其他频道\",{channel_name}\n{channel_url}\n")
-            channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
+    # 生成m3u文件
+    with open("itvlist.m3u", 'w', encoding='utf-8') as file:
+        file.write('#EXTM3U\n')
+        # 央视频道
+        channel_counters = {}
+        for result in results:
+            channel_name, channel_url = result[0], result[1]  # 直接解包元组
+            if 'CCTV' in channel_name:
+                if channel_name in channel_counters:
+                    if channel_counters[channel_name] >= result_counter: continue
+                file.write(f'#EXTINF:-1 group-title="央视频道",{channel_name}\n{channel_url}\n')
+                channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
+
+        # 卫视频道
+        channel_counters = {}
+        for result in results:
+            channel_name, channel_url = result[0], result[1]  # 直接解包元组
+            if '卫视' in channel_name:
+                if channel_name in channel_counters:
+                    if channel_counters[channel_name] >= result_counter: continue
+                file.write(f'#EXTINF:-1 group-title="卫视频道",{channel_name}\n{channel_url}\n')
+                channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
+
+        # 少儿频道
+        channel_counters = {}
+        for result in results:
+            channel_name, channel_url = result[0], result[1]  # 直接解包元组
+            if any(key in channel_name for key in ['卡酷', '少儿', '炫动', '卡通']):
+                if channel_name in channel_counters:
+                    if channel_counters[channel_name] >= result_counter: continue
+                file.write(f'#EXTINF:-1 group-title="少儿频道",{channel_name}\n{channel_url}\n')
+                channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
+
+        # 电影频道
+        channel_counters = {}
+        for result in results:
+            channel_name, channel_url = result[0], result[1]  # 直接解包元组
+            if any(key in channel_name for key in ['影院', '电影']):
+                if channel_name in channel_counters:
+                    if channel_counters[channel_name] >= result_counter: continue
+                file.write(f'#EXTINF:-1 group-title="电影频道",{channel_name}\n{channel_url}\n')
+                channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
+
+        # 河南频道
+        channel_counters = {}
+        for result in results:
+            channel_name, channel_url = result[0], result[1]  # 直接解包元组
+            if any(key in channel_name for key in ['河南', '郑州', '浉河', '漯河', '信阳', '中原']):
+                if channel_name in channel_counters:
+                    if channel_counters[channel_name] >= result_counter: continue
+                file.write(f'#EXTINF:-1 group-title="河南频道",{channel_name}\n{channel_url}\n')
+                channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
+
+        # 其他频道
+        channel_counters = {}
+        for result in results:
+            channel_name, channel_url = result[0], result[1]  # 直接解包元组
+            if all(key not in channel_name for key in ['CCTV', '卫视', '漯河', '浉河', '信阳', 
+                                                     '河南', '郑州', '中原', '卡酷', '少儿', 
+                                                     '炫动', '卡通', '影院', '电影']):
+                if channel_name in channel_counters:
+                    if channel_counters[channel_name] >= result_counter: continue
+                file.write(f'#EXTINF:-1 group-title="其他频道",{channel_name}\n{channel_url}\n')
+                channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
+
+
+
+# 在原有的结果处理之后调用新的输出函数
+generate_output_files(results)
+#生成json文件
+with open('itvlist.txt', 'r', encoding='utf-8') as f_in:
+    txt_content = f_in.read()
+
+with open('itvlist.json', 'w', encoding='utf-8') as f_out:
+    f_out.write(txt_content)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
