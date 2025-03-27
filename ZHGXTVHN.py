@@ -725,7 +725,7 @@ results.sort(key=lambda x: channel_key(x[0]))
 
 # 修改后的分类处理逻辑
 def generate_output_files(results):
-    result_counter = 10  # 每个频道需要的个数
+    result_counter = 12  # 每个频道需要的个数
 
     # 生成txt文件
     with open("itvlist.txt", 'w', encoding='utf-8') as file:
