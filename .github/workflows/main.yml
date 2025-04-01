@@ -2,7 +2,7 @@ name: itvlist
 
 on:
   schedule:
-    - cron: '0 6,12 * * *'
+    - cron: '0 0,18 * * *'
     timezone: Asia/Shanghai
   push:
     branches:
