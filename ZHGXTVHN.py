@@ -27,8 +27,8 @@ urls = [
 "http://1.197.251.1:885",
 "http://1.197.34.1:808",
 "http://1.199.136.1:8878",
-"http://1.24.190.1:10080",
-#"http://1.24.190.1:10089",
+#"http://1.24.190.1:10080",
+"http://1.24.190.1:10089",
 "http://1.70.10.1:808",
 "http://1.70.11.1:808",
 "http://1.70.14.1:808",
@@ -626,6 +626,8 @@ for url in valid_urls:
                         name = name.replace("CCTV5+体育", "CCTV5+")
                         name = name.replace("CCTVNEWS", "CGTN")
                         name = name.replace("上海卫视", "东方卫视")
+                        name = name.replace("新农村", "河南新农村")
+                        name = name.replace("中国教育4", "CETV4")
                         #results.append(f"{name},{urld}")
                         results.append((name, urld))  # 存储为元组而不是字符串
         except:
