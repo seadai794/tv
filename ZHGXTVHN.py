@@ -811,7 +811,7 @@ def generate_output_files(results):
             if 'CCTV' in channel_name:
                 if channel_name in channel_counters:
                     if channel_counters[channel_name] >= result_counter: continue
-                file.write(f'#EXTINF:-1 group-title="央视频道",{channel_name}\n{channel_url}\n')
+                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"https://live.fanmingming.cn/tv/{channel_name}.png\" group-title="央视频道",{channel_name}\n{channel_url}\n')
                 channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
         # 卫视频道
@@ -821,7 +821,7 @@ def generate_output_files(results):
             if '卫视' in channel_name:
                 if channel_name in channel_counters:
                     if channel_counters[channel_name] >= result_counter: continue
-                file.write(f'#EXTINF:-1 group-title="卫视频道",{channel_name}\n{channel_url}\n')
+                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"https://live.fanmingming.cn/tv/{channel_name}.png\" group-title="卫视频道",{channel_name}\n{channel_url}\n')
                 channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
         # 少儿频道
@@ -831,7 +831,7 @@ def generate_output_files(results):
             if any(key in channel_name for key in ['卡酷', '少儿', '炫动', '卡通']):
                 if channel_name in channel_counters:
                     if channel_counters[channel_name] >= result_counter: continue
-                file.write(f'#EXTINF:-1 group-title="少儿频道",{channel_name}\n{channel_url}\n')
+                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"https://live.fanmingming.cn/tv/{channel_name}.png\" group-title="少儿频道",{channel_name}\n{channel_url}\n')
                 channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
         # 电影频道
@@ -841,7 +841,7 @@ def generate_output_files(results):
             if any(key in channel_name for key in ['影院', '电影']):
                 if channel_name in channel_counters:
                     if channel_counters[channel_name] >= result_counter: continue
-                file.write(f'#EXTINF:-1 group-title="电影频道",{channel_name}\n{channel_url}\n')
+                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"https://live.fanmingming.cn/tv/{channel_name}.png\" group-title="电影频道",{channel_name}\n{channel_url}\n')
                 channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
         # 河南频道
@@ -851,7 +851,7 @@ def generate_output_files(results):
             if any(key in channel_name for key in ['河南', '郑州', '浉河', '漯河', '信阳', '中原']):
                 if channel_name in channel_counters:
                     if channel_counters[channel_name] >= result_counter: continue
-                file.write(f'#EXTINF:-1 group-title="河南频道",{channel_name}\n{channel_url}\n')
+                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"https://live.fanmingming.cn/tv/{channel_name}.png\" group-title="河南频道",{channel_name}\n{channel_url}\n')
                 channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
         # 其他频道
@@ -863,7 +863,7 @@ def generate_output_files(results):
                                                      '炫动', '卡通', '影院', '电影']):
                 if channel_name in channel_counters:
                     if channel_counters[channel_name] >= result_counter: continue
-                file.write(f'#EXTINF:-1 group-title="其他频道",{channel_name}\n{channel_url}\n')
+                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"https://live.fanmingming.cn/tv/{channel_name}.png\" group-title="其他频道",{channel_name}\n{channel_url}\n')
                 channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
 # 生成json文件
