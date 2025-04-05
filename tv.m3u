@@ -1,95 +1,95 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://logo.doube.eu.org/CCTV1.png" group-title="央视频道",CCTV1
-https://tvpull.careryun.com/tv/cctv1.m3u8?txSecret=5872a33ed1a18f94adef154c8e82a833&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv1.m3u8?txSecret=4fc044f57b2ed17871ac18033abf8f35&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://logo.doube.eu.org/CCTV2.png" group-title="央视频道",CCTV2
-https://tvpull.careryun.com/tv/cctv2.m3u8?txSecret=ade8050cc0f86581f6c203e211716817&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv2.m3u8?txSecret=789dd73969841333ae1379e1e23488c8&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://logo.doube.eu.org/CCTV3.png" group-title="央视频道",CCTV3
-https://tvpull.careryun.com/tv/cctv3.m3u8?txSecret=22a148a384615e1470ad80ab4a28d93e&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv3.m3u8?txSecret=64c24898304e82a52ed0adb4abb8eb06&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://logo.doube.eu.org/CCTV4.png" group-title="央视频道",CCTV4
-https://tvpull.careryun.com/tv/cctv4.m3u8?txSecret=8ee3ab44358a711a66591c139abd1814&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv4.m3u8?txSecret=40c2c61a609554c2399178d2be06642c&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" tvg-logo="https://logo.doube.eu.org/CCTV4美洲.png" group-title="央视频道",CCTV4美洲
-https://tvpull.careryun.com/tv/cctv4m.m3u8?txSecret=84301fdcf08745c420814a90468c1a0e&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv4m.m3u8?txSecret=413706f304ff48c208d101b32de5856a&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV4欧洲" tvg-name="CCTV4欧洲" tvg-logo="https://logo.doube.eu.org/CCTV4欧洲.png" group-title="央视频道",CCTV4欧洲
-https://tvpull.careryun.com/tv/cctv4o.m3u8?txSecret=f1db557cced2a461da70572e9e4e0512&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv4o.m3u8?txSecret=ed7cf3b461f52c70c8a2c3c387b06b54&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://logo.doube.eu.org/CCTV5.png" group-title="央视频道",CCTV5
-https://tvpull.careryun.com/tv/cctv5.m3u8?txSecret=bb0b22592ae40d47c10735c7d349e724&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv5.m3u8?txSecret=251c0640264193b9b96f9cbc297d2fe9&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://logo.doube.eu.org/CCTV5+.png" group-title="央视频道",CCTV5+
-https://tvpull.careryun.com/tv/cctv5plus.m3u8?txSecret=d101ee6ff8d3842b6e622c23b94c1d7c&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv5plus.m3u8?txSecret=761ea819967ec50b93325946bd506a80&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://logo.doube.eu.org/CCTV6.png" group-title="央视频道",CCTV6
-https://tvpull.careryun.com/tv/cctv6.m3u8?txSecret=6fadc709e6a774fb57d5d09c23a1bcd3&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv6.m3u8?txSecret=a894bac3eb79796b2ecab6993183614d&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://logo.doube.eu.org/CCTV7.png" group-title="央视频道",CCTV7
-https://tvpull.careryun.com/tv/cctv7.m3u8?txSecret=5d46afbf3a14b718bf13f7f3215e4b23&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv7.m3u8?txSecret=c0043ba50109fdc16faf99e9e0d9a4ca&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://logo.doube.eu.org/CCTV8.png" group-title="央视频道",CCTV8
-https://tvpull.careryun.com/tv/cctv8.m3u8?txSecret=065dc01955f08e50a663bcfe8f5cf72a&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv8.m3u8?txSecret=f970175d2f7325fd9419bf9b3d92e5d2&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://logo.doube.eu.org/CCTV9.png" group-title="央视频道",CCTV9
-https://tvpull.careryun.com/tv/cctv9.m3u8?txSecret=20aebf4c8a60dc6218f5140e699b2d73&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv9.m3u8?txSecret=402edf8a8e75b5a058cae5dedda62600&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://logo.doube.eu.org/CCTV10.png" group-title="央视频道",CCTV10
-https://tvpull.careryun.com/tv/cctv10.m3u8?txSecret=eb9dd81a94fc0e56645988a06e1ef1a8&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv10.m3u8?txSecret=a2b2ba91d55cb635efbf9c3425c0e36f&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://logo.doube.eu.org/CCTV11.png" group-title="央视频道",CCTV11
-https://tvpull.careryun.com/tv/cctv11.m3u8?txSecret=f23f460d9854cb012c4aaef14ae29811&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv11.m3u8?txSecret=3c36a6849155a32d6d6ba2b4eb1a8fa2&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://logo.doube.eu.org/CCTV12.png" group-title="央视频道",CCTV12
-https://tvpull.careryun.com/tv/cctv12.m3u8?txSecret=c02e0e70f73d48ff4f8e5003ed15645d&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv12.m3u8?txSecret=25d82d46bcf4b9a199ceb39a9d76c5d0&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://logo.doube.eu.org/CCTV13.png" group-title="央视频道",CCTV13
-https://tvpull.careryun.com/tv/cctv13.m3u8?txSecret=7c9e50e0e1d9f78f2172dfa14a945f84&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv13.m3u8?txSecret=10715adc3d9ba7ef1a69485210456a66&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://logo.doube.eu.org/CCTV14.png" group-title="央视频道",CCTV14
-https://tvpull.careryun.com/tv/cctv14.m3u8?txSecret=fb2d8c2c1e8ca05e2bf629edc2f17bfe&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv14.m3u8?txSecret=4bd5107f3a1ec2d35c2f853da9b33880&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://logo.doube.eu.org/CCTV15.png" group-title="央视频道",CCTV15
-https://tvpull.careryun.com/tv/cctv15.m3u8?txSecret=acd37ffccf2db0176a53d4b1e3f22513&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv15.m3u8?txSecret=9c982adcfd16350793d50d94e8258174&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://logo.doube.eu.org/CCTV17.png" group-title="央视频道",CCTV17
-https://tvpull.careryun.com/tv/cctv17.m3u8?txSecret=9757e7eb7d57f111a7db1d83bdebcd87&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cctv17.m3u8?txSecret=7890058b0b8ed53aa9142b270b552a40&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://logo.doube.eu.org/东南卫视.png" group-title="卫视频道",东南卫视
-https://tvpull.careryun.com/tv/cn_dnws.m3u8?txSecret=5b855193c3f88999f7413ef98a980226&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_dnws.m3u8?txSecret=f17a46cf26a318c7d32a289ce352c013&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://logo.doube.eu.org/东方卫视.png" group-title="卫视频道",东方卫视
-https://tvpull.careryun.com/tv/dfws.m3u8?txSecret=fb4cfc4a4bc22c7c91eb10bf013fc134&txTime=67f0bc23
+https://tvpull.careryun.com/tv/dfws.m3u8?txSecret=45c833ae9ff07aa542fc6748bd154d65&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://logo.doube.eu.org/兵团卫视.png" group-title="卫视频道",兵团卫视
-https://tvpull.careryun.com/tv/cn_btws.m3u8?txSecret=00842384f2749cbdfa97962aff5cecf5&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_btws.m3u8?txSecret=bc698a9890838ffe1aa12af24ff88c70&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://logo.doube.eu.org/北京卫视.png" group-title="卫视频道",北京卫视
-https://tvpull.careryun.com/tv/cn_bjws.m3u8?txSecret=c54bc9f8f650b1a56c3ba90e4cb26cb1&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_bjws.m3u8?txSecret=dc0c47e1492185469b862f855e9ac961&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://logo.doube.eu.org/吉林卫视.png" group-title="卫视频道",吉林卫视
-https://tvpull.careryun.com/tv/jlws.m3u8?txSecret=a22c7c87336d3e3c9e976a0f63368a06&txTime=67f0bc23
+https://tvpull.careryun.com/tv/jlws.m3u8?txSecret=9e2b86b41b0faa5266c33566adb10ac2&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://logo.doube.eu.org/四川卫视.png" group-title="卫视频道",四川卫视
-https://tvpull.careryun.com/tv/cn_ahws.m3u8?txSecret=f138eecf2197857a3b41ccb3252351da&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_ahws.m3u8?txSecret=4ebd11ba2e1a060cc3e09e0eacb8d017&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://logo.doube.eu.org/天津卫视.png" group-title="卫视频道",天津卫视
-https://tvpull.careryun.com/tv/cn_tjws.m3u8?txSecret=65f3ff1f0ff5d032eea1a1b236bdf6d4&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_tjws.m3u8?txSecret=45c510fcac68f0569178d4c3a66aaae3&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://logo.doube.eu.org/安徽卫视.png" group-title="卫视频道",安徽卫视
-https://tvpull.careryun.com/tv/ahws.m3u8?txSecret=c280fbf5beced4fdd9e7563f0250da03&txTime=67f0bc23
+https://tvpull.careryun.com/tv/ahws.m3u8?txSecret=9636867858fe5aa1249f3744df048fcc&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://logo.doube.eu.org/山东卫视.png" group-title="卫视频道",山东卫视
-https://tvpull.careryun.com/tv/cn_sdws.m3u8?txSecret=ee4ffac42327e581caf5c32d2fad4710&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_sdws.m3u8?txSecret=7c5134193204147b47cd5ee4d1967abb&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://logo.doube.eu.org/广东卫视.png" group-title="卫视频道",广东卫视
-https://tvpull.careryun.com/tv/gdws.m3u8?txSecret=b961a9e7fdab56945a8f9810222102db&txTime=67f0bc23
+https://tvpull.careryun.com/tv/gdws.m3u8?txSecret=43476656357c12519f7b12eed6714f79&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://logo.doube.eu.org/广西卫视.png" group-title="卫视频道",广西卫视
-https://tvpull.careryun.com/tv/cn_gxws.m3u8?txSecret=bbf62b8d2b5942e1510437145d9298e3&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_gxws.m3u8?txSecret=2b2aa5548d672d0fdbaebcd1c76d500c&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://logo.doube.eu.org/新疆卫视.png" group-title="卫视频道",新疆卫视
-https://tvpull.careryun.com/tv/cn_xjws.m3u8?txSecret=316f374e5fd1e93d6fecf6c0c2d44259&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_xjws.m3u8?txSecret=705b2117809197a20915367e75215217&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://logo.doube.eu.org/江苏卫视.png" group-title="卫视频道",江苏卫视
-https://tvpull.careryun.com/tv/jsws.m3u8?txSecret=9255be3f20b2396bbf8d0fa798cba691&txTime=67f0bc23
+https://tvpull.careryun.com/tv/jsws.m3u8?txSecret=cca668b1ff281dc2bc35705e8d2fbec9&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://logo.doube.eu.org/江西卫视.png" group-title="卫视频道",江西卫视
-https://tvpull.careryun.com/tv/jxws.m3u8?txSecret=ba5fd32a30f8be288f61db5e1823a0fa&txTime=67f0bc23
+https://tvpull.careryun.com/tv/jxws.m3u8?txSecret=f0d23c45c96d91c020e401ef6508cffb&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://logo.doube.eu.org/河北卫视.png" group-title="卫视频道",河北卫视
-https://tvpull.careryun.com/tv/cn_hbws.m3u8?txSecret=03bebf8256642ccddd5d04f84b137cd8&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_hbws.m3u8?txSecret=93bd7b42b9fe4fadb1a81e9f6a86a817&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://logo.doube.eu.org/河南卫视.png" group-title="卫视频道",河南卫视
-https://tvpull.careryun.com/tv/cn_hnws.m3u8?txSecret=f50ffd9738fc7f5cea027020eeb78bdd&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_hnws.m3u8?txSecret=49798472b37ff99104cca8739ab4cb29&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://logo.doube.eu.org/浙江卫视.png" group-title="卫视频道",浙江卫视
-https://tvpull.careryun.com/tv/cn_zjws.m3u8?txSecret=2d14bfd37eec7d48d523b53e58954304&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_zjws.m3u8?txSecret=72dba317165d8ce31c5e813c385e5f39&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://logo.doube.eu.org/海南卫视.png" group-title="卫视频道",海南卫视
-https://tvpull.careryun.com/tv/hainws.m3u8?txSecret=67be10b3d93320216f3fab028f4aa9e3&txTime=67f0bc23
+https://tvpull.careryun.com/tv/hainws.m3u8?txSecret=e5a3adb0c71f807642ad14d4328b115d&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://logo.doube.eu.org/深圳卫视.png" group-title="卫视频道",深圳卫视
-https://tvpull.careryun.com/tv/cn_szws.m3u8?txSecret=47b868649901ccb255c3e1182fa72dec&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_szws.m3u8?txSecret=d9c95a523eb85bd1bb9598185ab8f197&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://logo.doube.eu.org/湖北卫视.png" group-title="卫视频道",湖北卫视
-https://tvpull.careryun.com/tv/hbws.m3u8?txSecret=cbe1ba3f9750d25fbc1f2cebb72ae582&txTime=67f0bc23
+https://tvpull.careryun.com/tv/hbws.m3u8?txSecret=29a74b19e7b47b218d76dd4b132d0e72&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://logo.doube.eu.org/湖南卫视.png" group-title="卫视频道",湖南卫视
-https://tvpull.careryun.com/tv/cn_hunws.m3u8?txSecret=75b3c1aeeecf28c432a594ed33e559fa&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_hunws.m3u8?txSecret=aaf79262b198f305d9a4e056d3b86703&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://logo.doube.eu.org/甘肃卫视.png" group-title="卫视频道",甘肃卫视
-https://tvpull.careryun.com/tv/cn_gsws.m3u8?txSecret=9ba9b61813a402988d47e039ed69dace&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_gsws.m3u8?txSecret=f2a9d04a44f8b875723a9f830a0b88d3&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://logo.doube.eu.org/贵州卫视.png" group-title="卫视频道",贵州卫视
-https://tvpull.careryun.com/tv/cn_gzws.m3u8?txSecret=d385d0225cd5b4a738fd2ffe4d666839&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_gzws.m3u8?txSecret=332687d9bee7eba1d6689a72acbe709e&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://logo.doube.eu.org/辽宁卫视.png" group-title="卫视频道",辽宁卫视
-https://tvpull.careryun.com/tv/cn_lnws.m3u8?txSecret=661c700b71e4f12400e58d3e1a4770cd&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_lnws.m3u8?txSecret=17747f7acf0406dcca3eb6c21aa9a6bb&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://logo.doube.eu.org/重庆卫视.png" group-title="卫视频道",重庆卫视
-https://tvpull.careryun.com/tv/cn_cqws.m3u8?txSecret=75e0d7a530ae64061892bde65ea25049&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_cqws.m3u8?txSecret=333e4064813fd437f5ad2d9f871a02a4&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://logo.doube.eu.org/陕西卫视.png" group-title="卫视频道",陕西卫视
-https://tvpull.careryun.com/tv/sxws.m3u8?txSecret=7691313e0846f91302f407006df344d8&txTime=67f0bc23
+https://tvpull.careryun.com/tv/sxws.m3u8?txSecret=3dfc72d9893436b11f9ceb756fe81832&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://logo.doube.eu.org/青海卫视.png" group-title="卫视频道",青海卫视
-https://tvpull.careryun.com/tv/qhws.m3u8?txSecret=6d512cb510e5c5c8423098a76fb06e73&txTime=67f0bc23
+https://tvpull.careryun.com/tv/qhws.m3u8?txSecret=cc148d1835839c352b3e6b2358f8e227&txTime=67f0f0fa
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://logo.doube.eu.org/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
-https://tvpull.careryun.com/tv/cn_hljws.m3u8?txSecret=302fafc1b540c2ef012d724e998e885e&txTime=67f0bc23
+https://tvpull.careryun.com/tv/cn_hljws.m3u8?txSecret=c462172c2be273173e4c1cc012946ac4&txTime=67f0f0fa
