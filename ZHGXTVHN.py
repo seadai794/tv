@@ -1,5 +1,4 @@
 import time
-import datetime
 import concurrent.futures
 import requests
 import re
@@ -559,7 +558,7 @@ for url in valid_urls:
                     if len(urls) >= 4:
                         urld = (f"{urls[0]}//{url_data[2]}/{urls[3]}")
                     else:
-                        urld = (f"{urls[0]}//{url_data[2]}")
+                        urld = f"{urls[0]}//{url_data[2]}"
                     print(f"{name},{urld}")
                     if name and urld:
                         # 删除特定文字
@@ -578,7 +577,8 @@ for url in valid_urls:
                         name = name.replace("(", "")
                         name = name.replace(")", "")
                         name = re.sub(r"CCTV(\d+)台", r"CCTV\1", name)
-                         name=re.sub(r'\b新农村\b', '河南新农村', name)
+                        name=re.sub(r'\b新农村\b', '河南新农村', name)
+                        name = re.sub(r'\b电影\b', 'CHC影迷电影', name)
                         name = name.replace("CCTV1综合", "CCTV1")
                         name = name.replace("CCTV一套", "CCTV1")
                         name = name.replace("CCTV2经济", "CCTV2")
@@ -711,7 +711,6 @@ for channel in channels:
 # 等待所有任务完成
 task_queue.join()
 
-
 def channel_key(channel_name):
     match = re.search(r'\d+', channel_name)
     if match:
@@ -724,18 +723,25 @@ results.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
 results.sort(key=lambda x: channel_key(x[0]))
 
 
-# ...（保持原有的URL列表和辅助函数不变）...
-
 # 修改后的分类处理逻辑
 def generate_output_files(results):
     result_counter = 12  # 每个频道需要的个数
+
+    # 定义频道列表
+    shaoerpd = ['少儿', '卡酷', '动漫', '卡通', '炫动']
+    dianyingpd = ['电影', '影院' ]
+    hnpd = ['河南', '郑州', '浉河', '漯河', '信阳', '中原']
+    qitapd = ['CCTV'] + ['卫视'] + shaoerpd + dianyingpd + hnpd
+
+    # 定义台标地址
+    taibiao = 'https://live.fanmingming.cn/tv/'
 
     # 生成txt文件
     with open("itvlist.txt", 'w', encoding='utf-8') as file:
   
         # 央视频道
         channel_counters = {}
-        file.write('央视频道,#genre#\n')
+        file.write('央视,#genre#\n')
         for result in results:
             channel_name, channel_url = result[0], result[1]  # 直接解包元组
             if 'CCTV' in channel_name:
@@ -746,7 +752,7 @@ def generate_output_files(results):
 
         # 卫视频道
         channel_counters = {}
-        file.write('\n卫视频道,#genre#\n')
+        file.write('\n卫视,#genre#\n')
         for result in results:
             channel_name, channel_url = result[0], result[1]  # 直接解包元组
             if '卫视' in channel_name:
@@ -757,10 +763,10 @@ def generate_output_files(results):
 
         # 少儿频道
         channel_counters = {}
-        file.write('\n少儿频道,#genre#\n')
+        file.write('\n少儿,#genre#\n')
         for result in results:
             channel_name, channel_url = result[0], result[1]  # 直接解包元组
-            if any(key in channel_name for key in ['卡酷', '少儿', '炫动', '卡通']):
+            if any(key in channel_name for key in shaoerpd):
                 if channel_name in channel_counters:
                     if channel_counters[channel_name] >= result_counter: continue
                 file.write(f"{channel_name},{channel_url}\n")
@@ -768,10 +774,10 @@ def generate_output_files(results):
 
         # 电影频道
         channel_counters = {}
-        file.write('\n电影频道,#genre#\n')
+        file.write('\n电影,#genre#\n')
         for result in results:
             channel_name, channel_url = result[0], result[1]  # 直接解包元组
-            if any(key in channel_name for key in ['影院', '电影']):
+            if any(key in channel_name for key in dianyingpd):
                 if channel_name in channel_counters:
                     if channel_counters[channel_name] >= result_counter: continue
                 file.write(f"{channel_name},{channel_url}\n")
@@ -779,10 +785,10 @@ def generate_output_files(results):
 
         # 河南频道
         channel_counters = {}
-        file.write('\n河南频道,#genre#\n')
+        file.write('\n河南,#genre#\n')
         for result in results:
             channel_name, channel_url = result[0], result[1]  # 直接解包元组
-            if any(key in channel_name for key in ['河南', '郑州', '浉河', '漯河', '信阳', '中原']):
+            if any(key in channel_name for key in hnpd):
                 if channel_name in channel_counters:
                     if channel_counters[channel_name] >= result_counter: continue
                 file.write(f"{channel_name},{channel_url}\n")
@@ -790,12 +796,10 @@ def generate_output_files(results):
 
         # 其他频道
         channel_counters = {}
-        file.write('\n其他频道,#genre#\n')
+        file.write('\n其他,#genre#\n')
         for result in results:
             channel_name, channel_url = result[0], result[1]  # 直接解包元组
-            if all(key not in channel_name for key in ['CCTV', '卫视', '漯河', '浉河', '信阳', 
-                                                     '河南', '郑州', '中原', '卡酷', '少儿', 
-                                                     '炫动', '卡通', '影院', '电影']):
+            if all(key not in channel_name for key in qitapd):
                 if channel_name in channel_counters:
                     if channel_counters[channel_name] >= result_counter: continue
                 file.write(f"{channel_name},{channel_url}\n")
@@ -811,7 +815,7 @@ def generate_output_files(results):
             if 'CCTV' in channel_name:
                 if channel_name in channel_counters:
                     if channel_counters[channel_name] >= result_counter: continue
-                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"https://live.fanmingming.cn/tv/{channel_name}.png\" group-title="央视频道",{channel_name}\n{channel_url}\n')
+                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"{taibiao}{channel_name}.png\" group-title="央视频道",{channel_name}\n{channel_url}\n')
                 channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
         # 卫视频道
@@ -821,57 +825,52 @@ def generate_output_files(results):
             if '卫视' in channel_name:
                 if channel_name in channel_counters:
                     if channel_counters[channel_name] >= result_counter: continue
-                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"https://live.fanmingming.cn/tv/{channel_name}.png\" group-title="卫视频道",{channel_name}\n{channel_url}\n')
+                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"{taibiao}{channel_name}.png\" group-title="卫视频道",{channel_name}\n{channel_url}\n')
                 channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
         # 少儿频道
         channel_counters = {}
         for result in results:
             channel_name, channel_url = result[0], result[1]  # 直接解包元组
-            if any(key in channel_name for key in ['卡酷', '少儿', '炫动', '卡通']):
+            if any(key in channel_name for key in shaoerpd):
                 if channel_name in channel_counters:
                     if channel_counters[channel_name] >= result_counter: continue
-                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"https://live.fanmingming.cn/tv/{channel_name}.png\" group-title="少儿频道",{channel_name}\n{channel_url}\n')
+                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"{taibiao}{channel_name}.png\" group-title="少儿频道",{channel_name}\n{channel_url}\n')
                 channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
         # 电影频道
         channel_counters = {}
         for result in results:
             channel_name, channel_url = result[0], result[1]  # 直接解包元组
-            if any(key in channel_name for key in ['影院', '电影']):
+            if any(key in channel_name for key in dianyingpd):
                 if channel_name in channel_counters:
                     if channel_counters[channel_name] >= result_counter: continue
-                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"https://live.fanmingming.cn/tv/{channel_name}.png\" group-title="电影频道",{channel_name}\n{channel_url}\n')
+                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"{taibiao}{channel_name}.png\" group-title="电影频道",{channel_name}\n{channel_url}\n')
                 channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
         # 河南频道
         channel_counters = {}
         for result in results:
             channel_name, channel_url = result[0], result[1]  # 直接解包元组
-            if any(key in channel_name for key in ['河南', '郑州', '浉河', '漯河', '信阳', '中原']):
+            if any(key in channel_name for key in hnpd):
                 if channel_name in channel_counters:
                     if channel_counters[channel_name] >= result_counter: continue
-                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"https://live.fanmingming.cn/tv/{channel_name}.png\" group-title="河南频道",{channel_name}\n{channel_url}\n')
+                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"{taibiao}{channel_name}.png\" group-title="河南频道",{channel_name}\n{channel_url}\n')
                 channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
         # 其他频道
         channel_counters = {}
         for result in results:
             channel_name, channel_url = result[0], result[1]  # 直接解包元组
-            if all(key not in channel_name for key in ['CCTV', '卫视', '漯河', '浉河', '信阳', 
-                                                     '河南', '郑州', '中原', '卡酷', '少儿', 
-                                                     '炫动', '卡通', '影院', '电影']):
+            if all(key not in channel_name for key in qitapd):
                 if channel_name in channel_counters:
                     if channel_counters[channel_name] >= result_counter: continue
-                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"https://live.fanmingming.cn/tv/{channel_name}.png\" group-title="其他频道",{channel_name}\n{channel_url}\n')
+                file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"{taibiao}{channel_name}.png\" group-title="其他频道",{channel_name}\n{channel_url}\n')
                 channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
 
-# 生成json文件
-    
 
-# 在原有的结果处理之后调用新的输出函数
+
 generate_output_files(results)
-
 
 
 
