@@ -578,6 +578,7 @@ for url in valid_urls:
                         name = name.replace("(", "")
                         name = name.replace(")", "")
                         name = re.sub(r"CCTV(\d+)台", r"CCTV\1", name)
+                         name=re.sub(r'\b新农村\b', '河南新农村', name)
                         name = name.replace("CCTV1综合", "CCTV1")
                         name = name.replace("CCTV一套", "CCTV1")
                         name = name.replace("CCTV2经济", "CCTV2")
@@ -626,7 +627,6 @@ for url in valid_urls:
                         name = name.replace("CCTV5+体育", "CCTV5+")
                         name = name.replace("CCTVNEWS", "CGTN")
                         name = name.replace("上海卫视", "东方卫视")
-                        name = name.replace("新农村", "河南新农村")
                         name = name.replace("中国教育4", "CETV4")
                         #results.append(f"{name},{urld}")
                         results.append((name, urld))  # 存储为元组而不是字符串
