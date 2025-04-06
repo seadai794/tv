@@ -6,7 +6,7 @@ import os
 import threading
 from queue import Queue
 import eventlet
-import json
+from datetime import datetime
 
 eventlet.monkey_patch()
 
@@ -530,14 +530,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
             valid_urls.append(result)
             print(result)
 
-#for url in valid_urls:
-#    print(url)
 
-#now_today = datetime.date.today()
-#with open("ip.txt", 'a', encoding='utf-8') as file:
-#    file.write(f"{now_today}更新\n")
-#    for url in valid_urls:
-#        file.write(url + "\n")
 
 # 遍历网址列表，获取JSON文件并解析
 for url in valid_urls:
@@ -579,9 +572,11 @@ for url in valid_urls:
                         name = re.sub(r"CCTV(\d+)台", r"CCTV\1", name)
                         name=re.sub(r'\b新农村\b', '河南新农村', name)
                         name = re.sub(r'\b电影\b', 'CHC影迷电影', name)
-                        name = re.sub(r'\bCHC电影\b', 'CHC影迷电影', name)
                         name = re.sub(r'\b动作影院\b', 'CHC动作电影', name)
+                        name = re.sub(r'\b影院\b', 'CHC影迷电影', name)
                         name = re.sub(r'\b家庭影院\b', 'CHC家庭影院', name)
+                        name = re.sub(r'\bCHC电影\b', 'CHC影迷电影', name)
+                        name = re.sub(r'\b卡酷\b', '金鹰卡通', name)
                         name = name.replace("CCTV1综合", "CCTV1")
                         name = name.replace("CCTV一套", "CCTV1")
                         name = name.replace("CCTV2经济", "CCTV2")
@@ -739,8 +734,10 @@ def generate_output_files(results):
     # 定义台标地址
     taibiao = 'https://live.fanmingming.cn/tv/'
     # 定义节目表地址
-    jmb='https://live.fanmingming.cn/e.xml'
-    
+    jmb= 'https://live.fanmingming.cn/e.xml'
+
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M")
+
     # 生成txt文件
     with open("itvlist.txt", 'w', encoding='utf-8') as file:
   
@@ -809,10 +806,11 @@ def generate_output_files(results):
                     if channel_counters[channel_name] >= result_counter: continue
                 file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
-
+        file.write('\n更新时间,#genre#\n')
+        file.write(f'{current_time},#genre#\n')
     # 生成m3u文件
     with open("itvlist.m3u", 'w', encoding='utf-8') as file:
-        file.write('#EXTM3U x-tvg-url=\"{jmb}\"\n')
+        file.write(f'#EXTM3U x-tvg-url="{jmb}"\n')
         # 央视频道
         channel_counters = {}
         for result in results:
@@ -872,7 +870,8 @@ def generate_output_files(results):
                     if channel_counters[channel_name] >= result_counter: continue
                 file.write(f'#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"{taibiao}{channel_name}.png\" group-title="其他频道",{channel_name}\n{channel_url}\n')
                 channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
-
+        file.write('\n更新时间,#genre#\n')
+        file.write(f'{current_time},#genre#\n')
 
 
 generate_output_files(results)
