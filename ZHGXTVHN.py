@@ -735,7 +735,9 @@ def generate_output_files(results):
 
     # 定义台标地址
     taibiao = 'https://live.fanmingming.cn/tv/'
-
+    # 定义节目表地址
+    jmb='https://live.fanmingming.cn/e.xml'
+    
     # 生成txt文件
     with open("itvlist.txt", 'w', encoding='utf-8') as file:
   
@@ -807,7 +809,7 @@ def generate_output_files(results):
 
     # 生成m3u文件
     with open("itvlist.m3u", 'w', encoding='utf-8') as file:
-        file.write('#EXTM3U\n')
+        file.write('#EXTM3U x-tvg-url=\"{jmb}\"\n')
         # 央视频道
         channel_counters = {}
         for result in results:
