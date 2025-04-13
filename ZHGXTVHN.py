@@ -872,7 +872,38 @@ def generate_output_files(results):
                 channel_counters[channel_name] = channel_counters.get(channel_name, 0) + 1
         file.write('\n更新时间,#genre#\n')
         file.write(f'{current_time},#genre#\n')
+        
+# 处理xg.txt内容并追加到m3u和txt文件
+    with open('xg.txt', 'r', encoding='utf-8') as xg_file:
+        xg_lines = xg_file.readlines()
 
+    # 追加到m3u文件
+    with open("itvlist.m3u", 'a', encoding='utf-8') as m3u_file:
+        #m3u_file.write('\n#EXTM3U\n')
+        for line in xg_lines:
+            line = line.strip()
+            if not line:
+                continue
+            parts = line.split(',')
+            if len(parts) != 2:
+                continue
+            name, url = parts
+            m3u_file.write(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{taibiao}{name}.png" group-title="香港",{name}\n{url}\n')
+        m3u_file.write(f'#EXTINF:-1 group-title="更新时间",{current_time}\n')
+
+    # 追加到txt文件
+    with open("itvlist.txt", 'a', encoding='utf-8') as txt_file:
+        txt_file.write('\n香港,#genre#\n')
+        for line in xg_lines:
+            line = line.strip()
+            if not line:
+                continue
+            parts = line.split(',')
+            if len(parts) != 2:
+                continue
+            name, url = parts
+            txt_file.write(f'{name},{url}\n')
+        txt_file.write(f'\n更新时间,#genre#\n{current_time},\n')
 
 generate_output_files(results)
 
