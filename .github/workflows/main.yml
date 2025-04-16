@@ -32,9 +32,7 @@ jobs:
       - name: Run ZHGXTVHN
         run: python ${{ github.workspace }}/ZHGXTVHN.py
          
-      - name: Run kzb
-        run: python ${{ github.workspace }}/kzbmdify.py
-        
+             
       #- name: Run weishi
         #run: python ${{ github.workspace }}/weishi.py
         
