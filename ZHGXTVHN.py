@@ -580,7 +580,7 @@ for url in valid_urls:
                         name = re.sub(r'\b家庭影院\b', 'CHC家庭影院', name)
                         name = re.sub(r'\bCHC电影\b', 'CHC影迷电影', name)
                         name = re.sub(r'\b动作电影\b', 'CHC动作电影', name)
-                        name = re.sub(r'CCTV(10|12|14[12789])\+', r'CCTV\1', text)
+                        name = re.sub(r'CCTV(10|12|14[12789])\+', r'CCTV\1', name)
                         name = re.sub(r'\b卡酷\b', '金鹰卡通', name)
                         name = name.replace("CCTV1综合", "CCTV1")
                         name = name.replace("CCTV一套", "CCTV1")
