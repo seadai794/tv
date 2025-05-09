@@ -675,12 +675,12 @@ def generate_output_files(results):
             if len(parts) != 2:
                 continue
             name, url = parts
-            m3u_file.write(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{taibiao}{name}.png" group-title="香港",{name}\n{url}\n')
+            m3u_file.write(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{taibiao}{name}.png" group-title="搜集源",{name}\n{url}\n')
         m3u_file.write(f'#EXTINF:-1 group-title="更新时间",{current_time}\n')
 
     # 追加到txt文件
     with open("itvlist.txt", 'a', encoding='utf-8') as txt_file:
-        txt_file.write('\n香港,#genre#\n')
+        txt_file.write('\n搜集源,#genre#\n')
         for line in xg_lines:
             line = line.strip()
             if not line:
