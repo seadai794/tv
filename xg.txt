@@ -5,11 +5,8 @@ CCTV4,http://vault.iamued.com:4022/rtp/239.3.1.105:8092
 CCTV5,http://vault.iamued.com:4022/rtp/239.3.1.173:8001
 CCTV5+,http://vault.iamued.com:4022/rtp/239.3.1.130:8004
 CCTV6,http://vault.iamued.com:4022/rtp/239.3.1.174:8001
-凤凰资讯,http://162.62.120.19/qctv.fengshows.cn/live/0701pin72.flv
-凤凰资讯,http://live4play.uk/livehttpplay?channel_id=30015
-凤凰资讯,http://live4play.uk/livehttpplay?channel_id=20066
-凤凰中文,http://162.62.120.19/qctv.fengshows.cn/live/0701pcc72.flv
-凤凰中文,http://live4play.uk/livehttpplay?channel_id=20065
+凤凰中文,http://ycsj.aguihome.com:4022/udp/233.50.200.191:5140
+凤凰资讯,http://ycsj.aguihome.com:4022/udp/233.50.200.192:5140
 凤凰香港,http://162.62.120.19/qctv.fengshows.cn/live/0701phk72.flv
 凤凰香港,http://live4play.uk/livehttpplay?channel_id=30016
 重温经典,http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
