@@ -11,7 +11,7 @@
 
   在看电视直播软件中直接输入以下任一地址即可：
   
-  本节目源每天凌晨1点自动更新
+  本节目源每天6:00和18:00自动更新
   
       https://ghproxy.net/https://raw.githubusercontent.com/seadai794/tv/main/itvlist.txt
       https://ghproxy.net/https://raw.githubusercontent.com/seadai794/tv/main/itvlist.m3u
