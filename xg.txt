@@ -6,7 +6,7 @@
 重温经典,http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
 星光电影台,https://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
 美亚电影,https://live.tvfix.org/live/mydy/1/v4000000/index.m3u8
-电影功夫台http://cfss.cc/cdn/hy/11352941.flv
+电影功夫台,http://cfss.cc/cdn/hy/11352941.flv
 纬来电影,http://108.181.20.197/livehttpplay?channel_id=20199
 CCTV1,http://8.138.7.223/tv/ptbtv.php?id=27
 CCTV1,http://wouu.net:9977/udp/239.93.0.184:5140
