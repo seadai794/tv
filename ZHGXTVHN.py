@@ -6,7 +6,7 @@ import os
 import threading
 from queue import Queue
 import eventlet
-from datetime import datetime
+from datetime import datetime, timedelta
 
 eventlet.monkey_patch()
 
@@ -750,8 +750,8 @@ def generate_output_files(results):
     # 定义节目表地址
     jmb = 'https://live.fanmingming.cn/e.xml'
 
-    current_time = datetime.now().strftime("%Y-%m-%d %H:%M")
-
+    # current_time = datetime.now().strftime("%Y-%m-%d %H:%M")
+    current_time = (datetime.now() + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M")
     # 生成txt文件
     with open("itvlist.txt", 'w', encoding='utf-8') as file:
   
