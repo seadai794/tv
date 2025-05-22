@@ -748,7 +748,7 @@ def generate_output_files(results):
     # 定义台标地址
     taibiao = 'https://gitee.com/mytv-android/myTVlogo/raw/main/img/'
     # 定义节目表地址
-    jmb = 'https://live.fanmingming.com/e.xml'
+    jmb = 'https://raw.githubusercontent.com/sparkssssssssss/epg/main/pp.xml'
 
     # current_time = datetime.now().strftime("%Y-%m-%d %H:%M")
     current_time = (datetime.now() + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M")
