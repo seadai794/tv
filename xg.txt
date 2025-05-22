@@ -6,10 +6,7 @@
 凤凰香港,http://ali.hlspull.yximgs.com/live/qwt_fhhk.flv
 重温经典,http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
 星光电影台,https://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
-美亚电影,http://50.7.234.10:8278/meiyamovie_twn/playlist.m3u8?tid=MFEF1001328410013284&ct=19226&tsum=9839709ca0f37641c5d1ba962c3bc739
 电影功夫台,http://cfss.cc/cdn/hy/11352941.flv
-纬来电影,http://108.181.20.197/livehttpplay?channel_id=20199
-纬来戏剧,http://108.181.20.197/livehttpplay?channel_id=20200
 CCTV1,http://8.138.7.223/tv/ptbtv.php?id=27
 CCTV1,http://wouu.net:9977/udp/239.93.0.184:5140
 CCTV1,http://vault.iamued.com:4022/rtp/239.3.1.129:8008
