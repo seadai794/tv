@@ -746,9 +746,9 @@ def generate_output_files(results):
     qitapd = ['CCTV'] + ['卫视'] + shaoerpd + dianyingpd + hnpd
 
     # 定义台标地址
-    taibiao = 'https://live.fanmingming.cn/tv/'
+    taibiao = 'https://gitee.com/mytv-android/myTVlogo/raw/main/img/'
     # 定义节目表地址
-    jmb = 'https://live.fanmingming.cn/e.xml'
+    jmb = 'https://live.fanmingming.com/e.xml'
 
     # current_time = datetime.now().strftime("%Y-%m-%d %H:%M")
     current_time = (datetime.now() + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M")
