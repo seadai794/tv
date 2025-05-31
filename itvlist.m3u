@@ -4,197 +4,175 @@ http://106.46.38.28:808/hls/1/index.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视",CCTV1
 http://182.123.79.197:8090/hls/1/index.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视",CCTV1
-http://182.46.8.33:8018/hls/1/index.m3u8
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视",CCTV1
-http://58.17.48.228:808/hls/1/index.m3u8
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视",CCTV1
-http://123.10.78.185:808/hls/1/index.m3u8
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视",CCTV1
-http://182.122.74.35:8089/hls/1/index.m3u8
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视",CCTV1
-http://110.241.189.72:808/hls/1/index.m3u8
+http://123.10.78.64:808/hls/1/index.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视",CCTV1
 http://110.241.188.205:808/hls/1/index.m3u8
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视",CCTV1
+http://182.46.8.33:8018/hls/1/index.m3u8
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视",CCTV1
+http://111.61.236.247:9081/hls/1/index.m3u8
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视",CCTV1
+http://111.61.236.247:9081/hls/68/index.m3u8
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视",CCTV1
+http://58.17.48.228:808/hls/1/index.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV2
 http://106.46.38.28:808/hls/2/index.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV2
+http://182.122.74.35:8089/hls/2/index.m3u8
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV2
 http://182.123.79.197:8090/hls/2/index.m3u8
-#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV2
-http://182.46.8.33:8018/hls/2/index.m3u8
-#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV2
-http://58.17.48.228:808/hls/2/index.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV2
 http://123.10.78.64:808/hls/2/index.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV2
-http://123.10.78.185:808/hls/2/index.m3u8
-#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV2
-http://182.122.74.35:8089/hls/2/index.m3u8
-#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV2
-http://110.241.189.72:808/hls/2/index.m3u8
-#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV2
 http://110.241.188.205:808/hls/2/index.m3u8
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV2
+http://182.46.8.33:8018/hls/2/index.m3u8
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV2
+http://111.61.236.247:9081/hls/2/index.m3u8
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV2
+http://58.17.48.228:808/hls/2/index.m3u8
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视",CCTV3
 http://106.46.38.28:808/hls/3/index.m3u8
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视",CCTV3
-http://182.46.8.33:8018/hls/3/index.m3u8
-#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视",CCTV3
-http://58.17.48.228:808/hls/3/index.m3u8
+http://182.122.74.35:8089/hls/3/index.m3u8
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视",CCTV3
 http://123.10.78.64:808/hls/3/index.m3u8
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视",CCTV3
-http://123.10.78.185:808/hls/3/index.m3u8
-#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视",CCTV3
-http://182.122.74.35:8089/hls/3/index.m3u8
-#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视",CCTV3
-http://110.241.189.72:808/hls/3/index.m3u8
-#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视",CCTV3
 http://110.241.188.205:808/hls/3/index.m3u8
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视",CCTV3
+http://182.46.8.33:8018/hls/3/index.m3u8
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视",CCTV3
+http://111.61.236.247:9081/hls/3/index.m3u8
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央视",CCTV4
 http://106.46.38.28:808/hls/4/index.m3u8
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央视",CCTV4
-http://182.46.8.33:8018/hls/4/index.m3u8
-#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央视",CCTV4
-http://58.17.48.228:808/hls/4/index.m3u8
-#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央视",CCTV4
 http://123.10.78.64:808/hls/4/index.m3u8
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央视",CCTV4
-http://110.241.189.72:808/hls/4/index.m3u8
-#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央视",CCTV4
 http://110.241.188.205:808/hls/4/index.m3u8
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央视",CCTV4
+http://182.46.8.33:8018/hls/4/index.m3u8
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央视",CCTV4
+http://111.61.236.247:9081/hls/4/index.m3u8
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央视",CCTV4
+http://58.17.48.228:808/hls/4/index.m3u8
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="央视",CCTV5
 http://106.46.38.28:808/hls/5/index.m3u8
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="央视",CCTV5
-http://58.17.48.228:808/hls/5/index.m3u8
+http://182.122.74.35:8089/hls/5/index.m3u8
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="央视",CCTV5
 http://123.10.78.64:808/hls/5/index.m3u8
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="央视",CCTV5
-http://182.122.74.35:8089/hls/5/index.m3u8
-#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="央视",CCTV5
 http://110.241.188.205:808/hls/5/index.m3u8
-#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5+.png" group-title="央视",CCTV5+
-http://106.46.38.28:808/hls/18/index.m3u8
-#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5+.png" group-title="央视",CCTV5+
-http://110.241.189.72:808/hls/17/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="央视",CCTV5
+http://182.46.8.33:8018/hls/5/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="央视",CCTV5
+http://58.17.48.228:808/hls/5/index.m3u8
 #EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5+.png" group-title="央视",CCTV5+
 http://110.241.188.205:808/hls/17/index.m3u8
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="央视",CCTV6
 http://106.46.38.28:808/hls/6/index.m3u8
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="央视",CCTV6
+http://182.122.74.35:8089/hls/6/index.m3u8
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="央视",CCTV6
+http://123.10.78.64:808/hls/6/index.m3u8
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="央视",CCTV6
+http://110.241.188.205:808/hls/6/index.m3u8
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="央视",CCTV6
 http://182.46.8.33:8018/hls/6/index.m3u8
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="央视",CCTV6
 http://58.17.48.228:808/hls/6/index.m3u8
-#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="央视",CCTV6
-http://123.10.78.185:808/hls/6/index.m3u8
-#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="央视",CCTV6
-http://182.122.74.35:8089/hls/6/index.m3u8
-#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="央视",CCTV6
-http://110.241.189.72:808/hls/6/index.m3u8
-#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV7.png" group-title="央视",CCTV7
-http://106.46.38.28:808/hls/7/index.m3u8
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV7.png" group-title="央视",CCTV7
 http://182.46.8.33:8018/hls/7/index.m3u8
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV7.png" group-title="央视",CCTV7
-http://58.17.48.228:808/hls/24/index.m3u8
+http://106.46.38.28:808/hls/7/index.m3u8
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV7.png" group-title="央视",CCTV7
 http://123.10.78.64:808/hls/7/index.m3u8
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV7.png" group-title="央视",CCTV7
-http://110.241.189.72:808/hls/7/index.m3u8
-#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV7.png" group-title="央视",CCTV7
 http://110.241.188.205:808/hls/7/index.m3u8
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV7.png" group-title="央视",CCTV7
+http://111.61.236.247:9081/hls/7/index.m3u8
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV7.png" group-title="央视",CCTV7
+http://58.17.48.228:808/hls/24/index.m3u8
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV8.png" group-title="央视",CCTV8
-http://106.46.38.28:808/hls/8/index.m3u8
+http://182.122.74.35:8089/hls/8/index.m3u8
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV8.png" group-title="央视",CCTV8
+http://110.241.188.205:808/hls/8/index.m3u8
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV8.png" group-title="央视",CCTV8
 http://182.46.8.33:8018/hls/8/index.m3u8
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV8.png" group-title="央视",CCTV8
 http://58.17.48.228:808/hls/8/index.m3u8
-#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV8.png" group-title="央视",CCTV8
-http://123.10.78.64:808/hls/8/index.m3u8
-#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV8.png" group-title="央视",CCTV8
-http://123.10.78.185:808/hls/8/index.m3u8
-#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV8.png" group-title="央视",CCTV8
-http://182.122.74.35:8089/hls/8/index.m3u8
-#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV8.png" group-title="央视",CCTV8
-http://110.241.189.72:808/hls/8/index.m3u8
-#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png" group-title="央视",CCTV9
-http://106.46.38.28:808/hls/9/index.m3u8
-#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png" group-title="央视",CCTV9
-http://182.46.8.33:8018/hls/9/index.m3u8
-#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png" group-title="央视",CCTV9
-http://58.17.48.228:808/hls/16/index.m3u8
-#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png" group-title="央视",CCTV9
-http://123.10.78.64:808/hls/9/index.m3u8
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png" group-title="央视",CCTV9
 http://182.122.74.35:8089/hls/9/index.m3u8
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png" group-title="央视",CCTV9
-http://110.241.189.72:808/hls/9/index.m3u8
+http://123.10.78.64:808/hls/9/index.m3u8
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png" group-title="央视",CCTV9
 http://110.241.188.205:808/hls/9/index.m3u8
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png" group-title="央视",CCTV9
+http://182.46.8.33:8018/hls/9/index.m3u8
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png" group-title="央视",CCTV9
+http://111.61.236.247:9081/hls/9/index.m3u8
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png" group-title="央视",CCTV9
+http://58.17.48.228:808/hls/16/index.m3u8
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV10.png" group-title="央视",CCTV10
 http://106.46.38.28:808/hls/10/index.m3u8
-#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV10.png" group-title="央视",CCTV10
-http://182.46.8.33:8018/hls/10/index.m3u8
-#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV10.png" group-title="央视",CCTV10
-http://58.17.48.228:808/hls/10/index.m3u8
-#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV10.png" group-title="央视",CCTV10
-http://123.10.78.64:808/hls/10/index.m3u8
-#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV10.png" group-title="央视",CCTV10
-http://123.10.78.185:808/hls/10/index.m3u8
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV10.png" group-title="央视",CCTV10
 http://182.122.74.35:8089/hls/10/index.m3u8
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV10.png" group-title="央视",CCTV10
 http://110.241.188.205:808/hls/10/index.m3u8
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV10.png" group-title="央视",CCTV10
+http://182.46.8.33:8018/hls/10/index.m3u8
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV10.png" group-title="央视",CCTV10
+http://58.17.48.228:808/hls/10/index.m3u8
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV11.png" group-title="央视",CCTV11
-http://58.17.48.228:808/hls/11/index.m3u8
+http://106.46.38.28:808/hls/11/index.m3u8
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV11.png" group-title="央视",CCTV11
-http://123.10.78.64:808/hls/11/index.m3u8
+http://182.46.8.33:8018/hls/11/index.m3u8
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV11.png" group-title="央视",CCTV11
-http://123.10.78.185:808/hls/11/index.m3u8
-#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV12.png" group-title="央视",CCTV12
-http://106.46.38.28:808/hls/12/index.m3u8
-#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV12.png" group-title="央视",CCTV12
-http://182.46.8.33:8018/hls/12/index.m3u8
-#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV12.png" group-title="央视",CCTV12
-http://58.17.48.228:808/hls/12/index.m3u8
+http://111.61.236.247:9081/hls/11/index.m3u8
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV12.png" group-title="央视",CCTV12
 http://182.122.74.35:8089/hls/12/index.m3u8
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV12.png" group-title="央视",CCTV12
-http://110.241.189.72:808/hls/12/index.m3u8
+http://182.46.8.33:8018/hls/12/index.m3u8
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV12.png" group-title="央视",CCTV12
+http://106.46.38.28:808/hls/12/index.m3u8
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV12.png" group-title="央视",CCTV12
+http://123.10.78.64:808/hls/12/index.m3u8
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV12.png" group-title="央视",CCTV12
 http://110.241.188.205:808/hls/12/index.m3u8
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV12.png" group-title="央视",CCTV12
+http://111.61.236.247:9081/hls/12/index.m3u8
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV12.png" group-title="央视",CCTV12
+http://58.17.48.228:808/hls/12/index.m3u8
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV13.png" group-title="央视",CCTV13
 http://106.46.38.28:808/hls/13/index.m3u8
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV13.png" group-title="央视",CCTV13
+http://123.10.78.64:808/hls/13/index.m3u8
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV13.png" group-title="央视",CCTV13
 http://182.46.8.33:8018/hls/13/index.m3u8
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV13.png" group-title="央视",CCTV13
-http://58.17.48.228:808/hls/13/index.m3u8
+http://111.61.236.247:9081/hls/13/index.m3u8
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV13.png" group-title="央视",CCTV13
-http://123.10.78.64:808/hls/13/index.m3u8
+http://58.17.48.228:808/hls/13/index.m3u8
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="央视",CCTV14
 http://106.46.38.28:808/hls/14/index.m3u8
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="央视",CCTV14
-http://182.46.8.33:8018/hls/14/index.m3u8
-#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="央视",CCTV14
-http://58.17.48.228:808/hls/14/index.m3u8
-#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="央视",CCTV14
-http://123.10.78.185:808/hls/14/index.m3u8
-#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="央视",CCTV14
 http://182.122.74.35:8089/hls/14/index.m3u8
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="央视",CCTV14
-http://110.241.189.72:808/hls/14/index.m3u8
+http://182.46.8.33:8018/hls/14/index.m3u8
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="央视",CCTV14
+http://111.61.236.247:9081/hls/14/index.m3u8
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="央视",CCTV14
+http://58.17.48.228:808/hls/14/index.m3u8
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="央视",CCTV15
+http://110.241.189.72:808/hls/15/index.m3u8
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="央视",CCTV15
 http://106.46.38.28:808/hls/15/index.m3u8
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="央视",CCTV15
+http://110.241.188.205:808/hls/15/index.m3u8
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="央视",CCTV15
 http://182.46.8.33:8018/hls/15/index.m3u8
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="央视",CCTV15
 http://58.17.48.228:808/hls/15/index.m3u8
-#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="央视",CCTV15
-http://123.10.78.64:808/hls/15/index.m3u8
-#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="央视",CCTV15
-http://110.241.189.72:808/hls/15/index.m3u8
-#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="央视",CCTV15
-http://110.241.188.205:808/hls/15/index.m3u8
-#EXTINF:-1 tvg-name="CCTV16外语" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV16外语.png" group-title="央视",CCTV16外语
-http://110.241.189.72:808/hls/16/index.m3u8
 #EXTINF:-1 tvg-name="CCTV16外语" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV16外语.png" group-title="央视",CCTV16外语
 http://110.241.188.205:808/hls/16/index.m3u8
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV17.png" group-title="央视",CCTV17
@@ -202,63 +180,67 @@ http://106.46.38.28:808/hls/17/index.m3u8
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV17.png" group-title="央视",CCTV17
 http://58.17.48.228:808/hls/7/index.m3u8
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东南卫视.png" group-title="卫视",东南卫视
-http://182.46.8.33:8018/hls/55/index.m3u8
+http://110.241.189.72:808/hls/34/index.m3u8
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东南卫视.png" group-title="卫视",东南卫视
 http://106.46.38.28:808/hls/83/index.m3u8
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东南卫视.png" group-title="卫视",东南卫视
-http://58.17.48.228:808/hls/47/index.m3u8
-#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东南卫视.png" group-title="卫视",东南卫视
-http://110.241.189.72:808/hls/34/index.m3u8
-#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东南卫视.png" group-title="卫视",东南卫视
 http://110.241.188.205:808/hls/34/index.m3u8
-#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东方卫视.png" group-title="卫视",东方卫视
-http://182.46.8.33:8018/hls/54/index.m3u8
-#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东方卫视.png" group-title="卫视",东方卫视
-http://106.46.38.28:808/hls/62/index.m3u8
-#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东方卫视.png" group-title="卫视",东方卫视
-http://58.17.48.228:808/hls/33/index.m3u8
-#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东方卫视.png" group-title="卫视",东方卫视
-http://123.10.78.64:808/hls/37/index.m3u8
-#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东方卫视.png" group-title="卫视",东方卫视
-http://123.10.78.185:808/hls/37/index.m3u8
-#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东方卫视.png" group-title="卫视",东方卫视
-http://182.122.74.35:8089/hls/34/index.m3u8
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东南卫视.png" group-title="卫视",东南卫视
+http://182.46.8.33:8018/hls/55/index.m3u8
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东南卫视.png" group-title="卫视",东南卫视
+http://111.61.236.247:9081/hls/42/index.m3u8
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东南卫视.png" group-title="卫视",东南卫视
+http://58.17.48.228:808/hls/47/index.m3u8
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东方卫视.png" group-title="卫视",东方卫视
 http://110.241.189.72:808/hls/32/index.m3u8
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东方卫视.png" group-title="卫视",东方卫视
+http://106.46.38.28:808/hls/62/index.m3u8
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东方卫视.png" group-title="卫视",东方卫视
+http://182.122.74.35:8089/hls/34/index.m3u8
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东方卫视.png" group-title="卫视",东方卫视
+http://123.10.78.64:808/hls/37/index.m3u8
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东方卫视.png" group-title="卫视",东方卫视
 http://110.241.188.205:808/hls/32/index.m3u8
-#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/云南卫视.png" group-title="卫视",云南卫视
-http://182.46.8.33:8018/hls/73/index.m3u8
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东方卫视.png" group-title="卫视",东方卫视
+http://182.46.8.33:8018/hls/54/index.m3u8
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东方卫视.png" group-title="卫视",东方卫视
+http://58.17.48.228:808/hls/33/index.m3u8
 #EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/云南卫视.png" group-title="卫视",云南卫视
 http://106.46.38.28:808/hls/79/index.m3u8
 #EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/云南卫视.png" group-title="卫视",云南卫视
+http://123.10.78.64:808/hls/46/index.m3u8
+#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/云南卫视.png" group-title="卫视",云南卫视
+http://182.46.8.33:8018/hls/73/index.m3u8
+#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/云南卫视.png" group-title="卫视",云南卫视
+http://111.61.236.247:9081/hls/32/index.m3u8
+#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/云南卫视.png" group-title="卫视",云南卫视
 http://58.17.48.228:808/hls/46/index.m3u8
-#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/云南卫视.png" group-title="卫视",云南卫视
-http://123.10.78.185:808/hls/46/index.m3u8
-#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/云南卫视.png" group-title="卫视",云南卫视
-http://110.241.189.72:808/hls/47/index.m3u8
-#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/云南卫视.png" group-title="卫视",云南卫视
-http://110.241.188.205:808/hls/47/index.m3u8
-#EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/兵团卫视.png" group-title="卫视",兵团卫视
-http://182.46.8.33:8018/hls/78/index.m3u8
 #EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/兵团卫视.png" group-title="卫视",兵团卫视
 http://58.17.48.228:808/hls/62/index.m3u8
 #EXTINF:-1 tvg-name="内蒙古卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/内蒙古卫视.png" group-title="卫视",内蒙古卫视
 http://182.46.8.33:8018/hls/67/index.m3u8
+#EXTINF:-1 tvg-name="内蒙古卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/内蒙古卫视.png" group-title="卫视",内蒙古卫视
+http://110.241.189.72:808/hls/39/index.m3u8
+#EXTINF:-1 tvg-name="内蒙古卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/内蒙古卫视.png" group-title="卫视",内蒙古卫视
+http://106.46.38.28:808/hls/84/index.m3u8
+#EXTINF:-1 tvg-name="内蒙古卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/内蒙古卫视.png" group-title="卫视",内蒙古卫视
+http://110.241.188.205:808/hls/39/index.m3u8
+#EXTINF:-1 tvg-name="内蒙古卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/内蒙古卫视.png" group-title="卫视",内蒙古卫视
+http://58.17.48.228:808/hls/60/index.m3u8
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/北京卫视.png" group-title="卫视",北京卫视
+http://110.241.189.72:808/hls/21/index.m3u8
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/北京卫视.png" group-title="卫视",北京卫视
 http://106.46.38.28:808/hls/64/index.m3u8
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/北京卫视.png" group-title="卫视",北京卫视
+http://123.10.78.64:808/hls/36/index.m3u8
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/北京卫视.png" group-title="卫视",北京卫视
+http://110.241.188.205:808/hls/21/index.m3u8
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/北京卫视.png" group-title="卫视",北京卫视
+http://182.46.8.33:8018/hls/46/index.m3u8
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/北京卫视.png" group-title="卫视",北京卫视
 http://58.17.48.228:808/hls/35/index.m3u8
-#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/北京卫视.png" group-title="卫视",北京卫视
-http://182.122.74.35:8089/hls/33/index.m3u8
-#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/北京卫视.png" group-title="卫视",北京卫视
-http://110.241.189.72:808/hls/21/index.m3u8
-#EXTINF:-1 tvg-name="南方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/南方卫视.png" group-title="卫视",南方卫视
-http://113.86.205.62:8090/hls/109/index.m3u8
 #EXTINF:-1 tvg-name="南方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/南方卫视.png" group-title="卫视",南方卫视
 http://113.86.205.62:808/hls/109/index.m3u8
-#EXTINF:-1 tvg-name="厦门卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/厦门卫视.png" group-title="卫视",厦门卫视
-http://182.46.8.33:8018/hls/77/index.m3u8
 #EXTINF:-1 tvg-name="厦门卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/厦门卫视.png" group-title="卫视",厦门卫视
 http://123.10.78.64:808/hls/69/index.m3u8
 #EXTINF:-1 tvg-name="厦门卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/厦门卫视.png" group-title="卫视",厦门卫视
@@ -266,11 +248,9 @@ http://123.10.78.64:808/hls/69/index.m3u8
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/吉林卫视.png" group-title="卫视",吉林卫视
 http://182.46.8.33:8018/hls/30/index.m3u8
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/吉林卫视.png" group-title="卫视",吉林卫视
-http://106.46.38.28:808/hls/81/index.m3u8
+http://111.61.236.247:9081/hls/45/index.m3u8
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/吉林卫视.png" group-title="卫视",吉林卫视
 http://58.17.48.228:808/hls/56/index.m3u8
-#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/吉林卫视.png" group-title="卫视",吉林卫视
-http://110.241.189.72:808/hls/36/index.m3u8
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/四川卫视.png" group-title="卫视",四川卫视
 http://182.46.8.33:8018/hls/74/index.m3u8
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/四川卫视.png" group-title="卫视",四川卫视
@@ -279,276 +259,266 @@ http://106.46.38.28:808/hls/76/index.m3u8
 http://123.10.78.64:808/hls/44/index.m3u8
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/四川卫视.png" group-title="卫视",四川卫视
 http://110.241.188.205:808/hls/31/index.m3u8
+#EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/四川卫视.png" group-title="卫视",四川卫视
+http://111.61.236.247:9081/hls/35/index.m3u8
 #EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/天津卫视.png" group-title="卫视",天津卫视
 http://106.46.38.28:808/hls/78/index.m3u8
 #EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/天津卫视.png" group-title="卫视",天津卫视
-http://58.17.48.228:808/hls/42/index.m3u8
+http://110.241.188.205:808/hls/22/index.m3u8
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/天津卫视.png" group-title="卫视",天津卫视
+http://111.61.236.247:9081/hls/29/index.m3u8
 #EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/宁夏卫视.png" group-title="卫视",宁夏卫视
 http://182.46.8.33:8018/hls/68/index.m3u8
+#EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/宁夏卫视.png" group-title="卫视",宁夏卫视
+http://110.241.189.72:808/hls/41/index.m3u8
 #EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/宁夏卫视.png" group-title="卫视",宁夏卫视
 http://106.46.38.28:808/hls/82/index.m3u8
 #EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/宁夏卫视.png" group-title="卫视",宁夏卫视
 http://123.10.78.64:808/hls/59/index.m3u8
 #EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/宁夏卫视.png" group-title="卫视",宁夏卫视
 http://110.241.188.205:808/hls/41/index.m3u8
-#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/安徽卫视.png" group-title="卫视",安徽卫视
-http://106.46.38.28:808/hls/68/index.m3u8
+#EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/宁夏卫视.png" group-title="卫视",宁夏卫视
+http://111.61.236.247:9081/hls/51/index.m3u8
+#EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/宁夏卫视.png" group-title="卫视",宁夏卫视
+http://58.17.48.228:808/hls/65/index.m3u8
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/安徽卫视.png" group-title="卫视",安徽卫视
 http://182.46.8.33:8018/hls/48/index.m3u8
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/安徽卫视.png" group-title="卫视",安徽卫视
-http://123.10.78.64:808/hls/40/index.m3u8
-#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/安徽卫视.png" group-title="卫视",安徽卫视
-http://123.10.78.185:808/hls/40/index.m3u8
-#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/安徽卫视.png" group-title="卫视",安徽卫视
 http://182.122.74.35:8089/hls/37/index.m3u8
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/安徽卫视.png" group-title="卫视",安徽卫视
-http://110.241.189.72:808/hls/29/index.m3u8
-#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/安徽卫视.png" group-title="卫视",安徽卫视
 http://110.241.188.205:808/hls/29/index.m3u8
-#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东卫视.png" group-title="卫视",山东卫视
-http://106.46.38.28:808/hls/67/index.m3u8
-#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东卫视.png" group-title="卫视",山东卫视
-http://182.46.8.33:8018/hls/20/index.m3u8
-#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东卫视.png" group-title="卫视",山东卫视
-http://58.17.48.228:808/hls/43/index.m3u8
-#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东卫视.png" group-title="卫视",山东卫视
-http://123.10.78.64:808/hls/39/index.m3u8
-#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东卫视.png" group-title="卫视",山东卫视
-http://123.10.78.185:808/hls/39/index.m3u8
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/安徽卫视.png" group-title="卫视",安徽卫视
+http://58.17.48.228:808/hls/36/index.m3u8
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东卫视.png" group-title="卫视",山东卫视
 http://182.122.74.35:8089/hls/36/index.m3u8
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东卫视.png" group-title="卫视",山东卫视
 http://110.241.189.72:808/hls/24/index.m3u8
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东卫视.png" group-title="卫视",山东卫视
+http://106.46.38.28:808/hls/67/index.m3u8
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东卫视.png" group-title="卫视",山东卫视
 http://110.241.188.205:808/hls/24/index.m3u8
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东卫视.png" group-title="卫视",山东卫视
+http://182.46.8.33:8018/hls/20/index.m3u8
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东卫视.png" group-title="卫视",山东卫视
+http://111.61.236.247:9081/hls/31/index.m3u8
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东卫视.png" group-title="卫视",山东卫视
+http://58.17.48.228:808/hls/43/index.m3u8
 #EXTINF:-1 tvg-name="山东教育卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东教育卫视.png" group-title="卫视",山东教育卫视
 http://182.46.8.33:8018/hls/16/index.m3u8
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山西卫视.png" group-title="卫视",山西卫视
 http://182.46.8.33:8018/hls/70/index.m3u8
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山西卫视.png" group-title="卫视",山西卫视
-http://106.46.38.28:808/hls/86/index.m3u8
+http://110.241.189.72:808/hls/38/index.m3u8
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山西卫视.png" group-title="卫视",山西卫视
-http://58.17.48.228:808/hls/57/index.m3u8
+http://106.46.38.28:808/hls/86/index.m3u8
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山西卫视.png" group-title="卫视",山西卫视
 http://123.10.78.64:808/hls/56/index.m3u8
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山西卫视.png" group-title="卫视",山西卫视
-http://110.241.189.72:808/hls/38/index.m3u8
+http://110.241.188.205:808/hls/38/index.m3u8
+#EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山西卫视.png" group-title="卫视",山西卫视
+http://111.61.236.247:9081/hls/47/index.m3u8
+#EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山西卫视.png" group-title="卫视",山西卫视
+http://58.17.48.228:808/hls/57/index.m3u8
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东卫视.png" group-title="卫视",广东卫视
 http://106.46.38.28:808/hls/65/index.m3u8
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东卫视.png" group-title="卫视",广东卫视
-http://58.17.48.228:808/hls/45/index.m3u8
-#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东卫视.png" group-title="卫视",广东卫视
 http://123.10.78.64:808/hls/51/index.m3u8
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东卫视.png" group-title="卫视",广东卫视
-http://123.10.78.185:808/hls/51/index.m3u8
+http://110.241.188.205:808/hls/25/index.m3u8
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东卫视.png" group-title="卫视",广东卫视
-http://110.241.189.72:808/hls/25/index.m3u8
+http://182.46.8.33:8018/hls/57/index.m3u8
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东卫视.png" group-title="卫视",广东卫视
+http://111.61.236.247:9081/hls/43/index.m3u8
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东卫视.png" group-title="卫视",广东卫视
+http://58.17.48.228:808/hls/45/index.m3u8
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广西卫视.png" group-title="卫视",广西卫视
-http://106.46.38.28:808/hls/85/index.m3u8
-#EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广西卫视.png" group-title="卫视",广西卫视
-http://58.17.48.228:808/hls/44/index.m3u8
+http://182.46.8.33:8018/hls/58/index.m3u8
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广西卫视.png" group-title="卫视",广西卫视
 http://123.10.78.64:808/hls/52/index.m3u8
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广西卫视.png" group-title="卫视",广西卫视
-http://123.10.78.185:808/hls/52/index.m3u8
-#EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广西卫视.png" group-title="卫视",广西卫视
-http://110.241.188.205:808/hls/35/index.m3u8
+http://111.61.236.247:9081/hls/44/index.m3u8
 #EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/新疆卫视.png" group-title="卫视",新疆卫视
 http://182.46.8.33:8018/hls/76/index.m3u8
 #EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/新疆卫视.png" group-title="卫视",新疆卫视
-http://58.17.48.228:808/hls/61/index.m3u8
-#EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/新疆卫视.png" group-title="卫视",新疆卫视
-http://123.10.78.64:808/hls/63/index.m3u8
-#EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/新疆卫视.png" group-title="卫视",新疆卫视
 http://110.241.189.72:808/hls/43/index.m3u8
+#EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/新疆卫视.png" group-title="卫视",新疆卫视
+http://111.61.236.247:9081/hls/53/index.m3u8
+#EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/新疆卫视.png" group-title="卫视",新疆卫视
+http://58.17.48.228:808/hls/61/index.m3u8
 #EXTINF:-1 tvg-name="旅游卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/旅游卫视.png" group-title="卫视",旅游卫视
 http://182.46.8.33:8018/hls/66/index.m3u8
 #EXTINF:-1 tvg-name="旅游卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/旅游卫视.png" group-title="卫视",旅游卫视
 http://110.241.188.205:808/hls/45/index.m3u8
+#EXTINF:-1 tvg-name="旅游卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/旅游卫视.png" group-title="卫视",旅游卫视
+http://111.61.236.247:9081/hls/50/index.m3u8
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江苏卫视.png" group-title="卫视",江苏卫视
 http://106.46.38.28:808/hls/63/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江苏卫视.png" group-title="卫视",江苏卫视
+http://110.241.188.205:808/hls/20/index.m3u8
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江苏卫视.png" group-title="卫视",江苏卫视
 http://182.46.8.33:8018/hls/51/index.m3u8
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江苏卫视.png" group-title="卫视",江苏卫视
 http://58.17.48.228:808/hls/34/index.m3u8
-#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江苏卫视.png" group-title="卫视",江苏卫视
-http://123.10.78.64:808/hls/71/index.m3u8
-#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江苏卫视.png" group-title="卫视",江苏卫视
-http://123.10.78.185:808/hls/71/index.m3u8
-#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江苏卫视.png" group-title="卫视",江苏卫视
-http://110.241.189.72:808/hls/20/index.m3u8
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江西卫视.png" group-title="卫视",江西卫视
-http://106.46.38.28:808/hls/73/index.m3u8
+http://182.46.8.33:8018/hls/64/index.m3u8
+#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江西卫视.png" group-title="卫视",江西卫视
+http://123.10.78.64:808/hls/42/index.m3u8
+#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江西卫视.png" group-title="卫视",江西卫视
+http://111.61.236.247:9081/hls/36/index.m3u8
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江西卫视.png" group-title="卫视",江西卫视
 http://58.17.48.228:808/hls/17/index.m3u8
-#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江西卫视.png" group-title="卫视",江西卫视
-http://123.10.78.185:808/hls/42/index.m3u8
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北卫视.png" group-title="卫视",河北卫视
+http://110.241.189.72:808/hls/18/index.m3u8
 #EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北卫视.png" group-title="卫视",河北卫视
 http://106.46.38.28:808/hls/72/index.m3u8
 #EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北卫视.png" group-title="卫视",河北卫视
-http://182.46.8.33:8018/hls/61/index.m3u8
+http://110.241.188.205:808/hls/18/index.m3u8
 #EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北卫视.png" group-title="卫视",河北卫视
-http://110.241.189.72:808/hls/18/index.m3u8
+http://182.46.8.33:8018/hls/61/index.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="卫视",河南卫视
-http://106.46.38.28:808/hls/31/index.m3u8
-#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="卫视",河南卫视
-http://182.46.8.33:8018/hls/62/index.m3u8
-#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="卫视",河南卫视
-http://58.17.48.228:808/hls/55/index.m3u8
-#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="卫视",河南卫视
-http://123.10.78.64:808/hls/17/index.m3u8
+http://110.241.189.72:808/hls/48/index.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="卫视",河南卫视
 http://182.122.74.35:8089/hls/17/index.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="卫视",河南卫视
-http://110.241.189.72:808/hls/48/index.m3u8
+http://123.10.78.64:808/hls/17/index.m3u8
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="卫视",河南卫视
+http://110.241.188.205:808/hls/48/index.m3u8
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="卫视",河南卫视
+http://182.46.8.33:8018/hls/62/index.m3u8
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="卫视",河南卫视
+http://111.61.236.247:9081/hls/33/index.m3u8
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="卫视",河南卫视
+http://58.17.48.228:808/hls/55/index.m3u8
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/浙江卫视.png" group-title="卫视",浙江卫视
 http://182.46.8.33:8018/hls/52/index.m3u8
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/浙江卫视.png" group-title="卫视",浙江卫视
-http://106.46.38.28:808/hls/61/index.m3u8
-#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/浙江卫视.png" group-title="卫视",浙江卫视
-http://58.17.48.228:808/hls/32/index.m3u8
-#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/浙江卫视.png" group-title="卫视",浙江卫视
-http://123.10.78.185:808/hls/35/index.m3u8
-#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/浙江卫视.png" group-title="卫视",浙江卫视
-http://182.122.74.35:8089/hls/32/index.m3u8
-#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/浙江卫视.png" group-title="卫视",浙江卫视
 http://110.241.189.72:808/hls/26/index.m3u8
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/浙江卫视.png" group-title="卫视",浙江卫视
+http://123.10.78.64:808/hls/35/index.m3u8
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/浙江卫视.png" group-title="卫视",浙江卫视
 http://110.241.188.205:808/hls/26/index.m3u8
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/浙江卫视.png" group-title="卫视",浙江卫视
+http://111.61.236.247:9081/hls/25/index.m3u8
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/浙江卫视.png" group-title="卫视",浙江卫视
+http://58.17.48.228:808/hls/32/index.m3u8
 #EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/海南卫视.png" group-title="卫视",海南卫视
 http://106.46.38.28:808/hls/88/index.m3u8
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/深圳卫视.png" group-title="卫视",深圳卫视
+http://110.241.189.72:808/hls/23/index.m3u8
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/深圳卫视.png" group-title="卫视",深圳卫视
 http://106.46.38.28:808/hls/75/index.m3u8
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/深圳卫视.png" group-title="卫视",深圳卫视
+http://182.122.74.35:8089/hls/38/index.m3u8
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/深圳卫视.png" group-title="卫视",深圳卫视
+http://123.10.78.64:808/hls/41/index.m3u8
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/深圳卫视.png" group-title="卫视",深圳卫视
+http://110.241.188.205:808/hls/23/index.m3u8
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/深圳卫视.png" group-title="卫视",深圳卫视
 http://182.46.8.33:8018/hls/72/index.m3u8
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/深圳卫视.png" group-title="卫视",深圳卫视
 http://58.17.48.228:808/hls/52/index.m3u8
-#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/深圳卫视.png" group-title="卫视",深圳卫视
-http://182.122.74.35:8089/hls/38/index.m3u8
-#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/深圳卫视.png" group-title="卫视",深圳卫视
-http://110.241.188.205:808/hls/23/index.m3u8
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖北卫视.png" group-title="卫视",湖北卫视
 http://106.46.38.28:808/hls/77/index.m3u8
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖北卫视.png" group-title="卫视",湖北卫视
-http://58.17.48.228:808/hls/53/index.m3u8
-#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖北卫视.png" group-title="卫视",湖北卫视
-http://123.10.78.185:808/hls/43/index.m3u8
-#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖北卫视.png" group-title="卫视",湖北卫视
 http://182.122.74.35:8089/hls/40/index.m3u8
-#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖南卫视.png" group-title="卫视",湖南卫视
-http://106.46.38.28:808/hls/74/index.m3u8
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖北卫视.png" group-title="卫视",湖北卫视
+http://123.10.78.64:808/hls/43/index.m3u8
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖北卫视.png" group-title="卫视",湖北卫视
+http://110.241.188.205:808/hls/30/index.m3u8
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖北卫视.png" group-title="卫视",湖北卫视
+http://182.46.8.33:8018/hls/49/index.m3u8
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖北卫视.png" group-title="卫视",湖北卫视
+http://111.61.236.247:9081/hls/39/index.m3u8
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖北卫视.png" group-title="卫视",湖北卫视
+http://58.17.48.228:808/hls/53/index.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖南卫视.png" group-title="卫视",湖南卫视
 http://182.46.8.33:8018/hls/50/index.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖南卫视.png" group-title="卫视",湖南卫视
-http://58.17.48.228:808/hls/31/index.m3u8
+http://182.122.74.35:8089/hls/30/index.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖南卫视.png" group-title="卫视",湖南卫视
 http://123.10.78.64:808/hls/33/index.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖南卫视.png" group-title="卫视",湖南卫视
-http://123.10.78.185:808/hls/33/index.m3u8
-#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖南卫视.png" group-title="卫视",湖南卫视
-http://182.122.74.35:8089/hls/30/index.m3u8
-#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖南卫视.png" group-title="卫视",湖南卫视
-http://110.241.189.72:808/hls/19/index.m3u8
-#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖南卫视.png" group-title="卫视",湖南卫视
 http://110.241.188.205:808/hls/19/index.m3u8
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖南卫视.png" group-title="卫视",湖南卫视
+http://111.61.236.247:9081/hls/24/index.m3u8
 #EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/甘肃卫视.png" group-title="卫视",甘肃卫视
 http://106.46.38.28:808/hls/89/index.m3u8
 #EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/甘肃卫视.png" group-title="卫视",甘肃卫视
+http://123.10.78.64:808/hls/58/index.m3u8
+#EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/甘肃卫视.png" group-title="卫视",甘肃卫视
 http://182.46.8.33:8018/hls/56/index.m3u8
 #EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/甘肃卫视.png" group-title="卫视",甘肃卫视
-http://58.17.48.228:808/hls/64/index.m3u8
+http://111.61.236.247:9081/hls/54/index.m3u8
 #EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/甘肃卫视.png" group-title="卫视",甘肃卫视
-http://123.10.78.64:808/hls/58/index.m3u8
-#EXTINF:-1 tvg-name="西藏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/西藏卫视.png" group-title="卫视",西藏卫视
-http://182.46.8.33:8018/hls/75/index.m3u8
-#EXTINF:-1 tvg-name="西藏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/西藏卫视.png" group-title="卫视",西藏卫视
-http://110.241.189.72:808/hls/42/index.m3u8
-#EXTINF:-1 tvg-name="西藏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/西藏卫视.png" group-title="卫视",西藏卫视
-http://110.241.188.205:808/hls/42/index.m3u8
+http://58.17.48.228:808/hls/64/index.m3u8
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/贵州卫视.png" group-title="卫视",贵州卫视
 http://106.46.38.28:808/hls/71/index.m3u8
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/贵州卫视.png" group-title="卫视",贵州卫视
-http://58.17.48.228:808/hls/58/index.m3u8
+http://110.241.188.205:808/hls/49/index.m3u8
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/贵州卫视.png" group-title="卫视",贵州卫视
-http://110.241.189.72:808/hls/49/index.m3u8
+http://111.61.236.247:9081/hls/37/index.m3u8
+#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/贵州卫视.png" group-title="卫视",贵州卫视
+http://58.17.48.228:808/hls/58/index.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/辽宁卫视.png" group-title="卫视",辽宁卫视
 http://106.46.38.28:808/hls/69/index.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/辽宁卫视.png" group-title="卫视",辽宁卫视
 http://182.46.8.33:8018/hls/65/index.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/辽宁卫视.png" group-title="卫视",辽宁卫视
-http://123.10.78.64:808/hls/48/index.m3u8
-#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/辽宁卫视.png" group-title="卫视",辽宁卫视
-http://123.10.78.185:808/hls/48/index.m3u8
-#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/辽宁卫视.png" group-title="卫视",辽宁卫视
-http://110.241.189.72:808/hls/28/index.m3u8
-#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/辽宁卫视.png" group-title="卫视",辽宁卫视
-http://110.241.188.205:808/hls/28/index.m3u8
+http://111.61.236.247:9081/hls/30/index.m3u8
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/重庆卫视.png" group-title="卫视",重庆卫视
+http://123.10.78.64:808/hls/50/index.m3u8
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/重庆卫视.png" group-title="卫视",重庆卫视
+http://110.241.188.205:808/hls/33/index.m3u8
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/重庆卫视.png" group-title="卫视",重庆卫视
 http://182.46.8.33:8018/hls/53/index.m3u8
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/重庆卫视.png" group-title="卫视",重庆卫视
-http://106.46.38.28:808/hls/80/index.m3u8
-#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/重庆卫视.png" group-title="卫视",重庆卫视
-http://110.241.188.205:808/hls/33/index.m3u8
-#EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/陕西卫视.png" group-title="卫视",陕西卫视
-http://182.46.8.33:8018/hls/71/index.m3u8
-#EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/陕西卫视.png" group-title="卫视",陕西卫视
-http://58.17.48.228:808/hls/49/index.m3u8
-#EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/陕西卫视.png" group-title="卫视",陕西卫视
-http://123.10.78.64:808/hls/57/index.m3u8
-#EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/陕西卫视.png" group-title="卫视",陕西卫视
-http://123.10.78.185:808/hls/57/index.m3u8
+http://111.61.236.247:9081/hls/41/index.m3u8
 #EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/陕西卫视.png" group-title="卫视",陕西卫视
 http://110.241.189.72:808/hls/37/index.m3u8
 #EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/陕西卫视.png" group-title="卫视",陕西卫视
 http://110.241.188.205:808/hls/37/index.m3u8
+#EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/陕西卫视.png" group-title="卫视",陕西卫视
+http://182.46.8.33:8018/hls/71/index.m3u8
+#EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/陕西卫视.png" group-title="卫视",陕西卫视
+http://111.61.236.247:9081/hls/46/index.m3u8
+#EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/陕西卫视.png" group-title="卫视",陕西卫视
+http://58.17.48.228:808/hls/49/index.m3u8
+#EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/青海卫视.png" group-title="卫视",青海卫视
+http://123.10.78.64:808/hls/60/index.m3u8
 #EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/青海卫视.png" group-title="卫视",青海卫视
 http://182.46.8.33:8018/hls/69/index.m3u8
 #EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/青海卫视.png" group-title="卫视",青海卫视
-http://106.46.38.28:808/hls/90/index.m3u8
-#EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/青海卫视.png" group-title="卫视",青海卫视
 http://58.17.48.228:808/hls/59/index.m3u8
-#EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/青海卫视.png" group-title="卫视",青海卫视
-http://123.10.78.185:808/hls/60/index.m3u8
-#EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/青海卫视.png" group-title="卫视",青海卫视
-http://110.241.189.72:808/hls/40/index.m3u8
-#EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/青海卫视.png" group-title="卫视",青海卫视
-http://110.241.188.205:808/hls/40/index.m3u8
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/黑龙江卫视.png" group-title="卫视",黑龙江卫视
+http://110.241.189.72:808/hls/27/index.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/黑龙江卫视.png" group-title="卫视",黑龙江卫视
 http://106.46.38.28:808/hls/66/index.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/黑龙江卫视.png" group-title="卫视",黑龙江卫视
-http://182.46.8.33:8018/hls/63/index.m3u8
+http://182.122.74.35:8089/hls/42/index.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/黑龙江卫视.png" group-title="卫视",黑龙江卫视
 http://123.10.78.64:808/hls/45/index.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/黑龙江卫视.png" group-title="卫视",黑龙江卫视
-http://123.10.78.185:808/hls/45/index.m3u8
+http://110.241.188.205:808/hls/27/index.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/黑龙江卫视.png" group-title="卫视",黑龙江卫视
-http://182.122.74.35:8089/hls/42/index.m3u8
+http://182.46.8.33:8018/hls/63/index.m3u8
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/黑龙江卫视.png" group-title="卫视",黑龙江卫视
+http://111.61.236.247:9081/hls/34/index.m3u8
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/黑龙江卫视.png" group-title="卫视",黑龙江卫视
+http://58.17.48.228:808/hls/54/index.m3u8
 #EXTINF:-1 tvg-name="优曼卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/优曼卡通.png" group-title="少儿",优曼卡通
 http://182.46.8.33:8018/hls/45/index.m3u8
 #EXTINF:-1 tvg-name="优漫卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/优漫卡通.png" group-title="少儿",优漫卡通
 http://58.17.48.228:808/hls/40/index.m3u8
 #EXTINF:-1 tvg-name="卡酷动画" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/卡酷动画.png" group-title="少儿",卡酷动画
-http://106.46.38.28:808/hls/93/index.m3u8
-#EXTINF:-1 tvg-name="卡酷动画" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/卡酷动画.png" group-title="少儿",卡酷动画
-http://123.10.78.64:808/hls/64/index.m3u8
-#EXTINF:-1 tvg-name="卡酷动画" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/卡酷动画.png" group-title="少儿",卡酷动画
-http://123.10.78.185:808/hls/64/index.m3u8
-#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/卡酷少儿.png" group-title="少儿",卡酷少儿
-http://58.17.48.228:808/hls/39/index.m3u8
-#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/卡酷少儿.png" group-title="少儿",卡酷少儿
-http://110.241.189.72:808/hls/46/index.m3u8
+http://111.61.236.247:9081/hls/65/index.m3u8
 #EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/卡酷少儿.png" group-title="少儿",卡酷少儿
 http://110.241.188.205:808/hls/46/index.m3u8
+#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/卡酷少儿.png" group-title="少儿",卡酷少儿
+http://58.17.48.228:808/hls/39/index.m3u8
 #EXTINF:-1 tvg-name="嘉佳卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/嘉佳卡通.png" group-title="少儿",嘉佳卡通
 http://106.46.38.28:808/hls/92/index.m3u8
 #EXTINF:-1 tvg-name="山东少儿" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东少儿.png" group-title="少儿",山东少儿
 http://182.46.8.33:8018/hls/21/index.m3u8
-#EXTINF:-1 tvg-name="广东少儿" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东少儿.png" group-title="少儿",广东少儿
-http://113.86.205.62:8090/hls/111/index.m3u8
-#EXTINF:-1 tvg-name="广东少儿" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东少儿.png" group-title="少儿",广东少儿
-http://113.86.205.62:808/hls/111/index.m3u8
-#EXTINF:-1 tvg-name="河北少儿" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北少儿.png" group-title="少儿",河北少儿
-http://110.241.189.72:808/hls/61/index.m3u8
 #EXTINF:-1 tvg-name="河北少儿" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北少儿.png" group-title="少儿",河北少儿
 http://110.241.188.205:808/hls/61/index.m3u8
 #EXTINF:-1 tvg-name="炫动卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/炫动卡通.png" group-title="少儿",炫动卡通
@@ -558,29 +528,27 @@ http://106.46.38.28:808/hls/94/index.m3u8
 #EXTINF:-1 tvg-name="炫动卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/炫动卡通.png" group-title="少儿",炫动卡通
 http://58.17.48.228:808/hls/38/index.m3u8
 #EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/金鹰卡通.png" group-title="少儿",金鹰卡通
-http://182.46.8.33:8018/hls/43/index.m3u8
+http://110.241.189.72:808/hls/50/index.m3u8
 #EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/金鹰卡通.png" group-title="少儿",金鹰卡通
 http://106.46.38.28:808/hls/91/index.m3u8
 #EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/金鹰卡通.png" group-title="少儿",金鹰卡通
-http://58.17.48.228:808/hls/37/index.m3u8
-#EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/金鹰卡通.png" group-title="少儿",金鹰卡通
 http://110.241.188.205:808/hls/50/index.m3u8
+#EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/金鹰卡通.png" group-title="少儿",金鹰卡通
+http://182.46.8.33:8018/hls/43/index.m3u8
+#EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/金鹰卡通.png" group-title="少儿",金鹰卡通
+http://111.61.236.247:9081/hls/66/index.m3u8
+#EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/金鹰卡通.png" group-title="少儿",金鹰卡通
+http://58.17.48.228:808/hls/37/index.m3u8
 #EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CHC动作电影.png" group-title="电影",CHC动作电影
 http://123.10.78.64:808/hls/97/index.m3u8
-#EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CHC动作电影.png" group-title="电影",CHC动作电影
-http://123.10.78.185:808/hls/97/index.m3u8
 #EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CHC家庭影院.png" group-title="电影",CHC家庭影院
 http://60.16.18.243:4949/hls/29/index.m3u8
 #EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CHC家庭影院.png" group-title="电影",CHC家庭影院
-http://123.10.78.185:808/hls/99/index.m3u8
+http://123.10.78.64:808/hls/99/index.m3u8
 #EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CHC影迷电影.png" group-title="电影",CHC影迷电影
 http://60.16.18.243:4949/hls/28/index.m3u8
 #EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CHC影迷电影.png" group-title="电影",CHC影迷电影
 http://123.10.78.64:808/hls/98/index.m3u8
-#EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CHC影迷电影.png" group-title="电影",CHC影迷电影
-http://123.10.78.185:808/hls/98/index.m3u8
-#EXTINF:-1 tvg-name="经典电影" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/经典电影.png" group-title="电影",经典电影
-http://182.46.8.33:8018/hls/82/index.m3u8
 #EXTINF:-1 tvg-name="经典电影" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/经典电影.png" group-title="电影",经典电影
 http://123.10.78.64:808/hls/79/index.m3u8
 #EXTINF:-1 tvg-name="信阳公共" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/信阳公共.png" group-title="河南",信阳公共
@@ -589,62 +557,64 @@ http://106.46.38.28:808/hls/101/index.m3u8
 http://106.46.38.28:808/hls/100/index.m3u8
 #EXTINF:-1 tvg-name="河南乡村" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南乡村.png" group-title="河南",河南乡村
 http://106.46.38.28:808/hls/39/index.m3u8
-#EXTINF:-1 tvg-name="河南乡村" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南乡村.png" group-title="河南",河南乡村
-http://123.10.78.64:808/hls/25/index.m3u8
 #EXTINF:-1 tvg-name="河南公共" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南公共.png" group-title="河南",河南公共
 http://106.46.38.28:808/hls/38/index.m3u8
 #EXTINF:-1 tvg-name="河南公共" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南公共.png" group-title="河南",河南公共
-http://123.10.78.185:808/hls/24/index.m3u8
-#EXTINF:-1 tvg-name="河南公共" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南公共.png" group-title="河南",河南公共
 http://182.122.74.35:8089/hls/24/index.m3u8
+#EXTINF:-1 tvg-name="河南公共" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南公共.png" group-title="河南",河南公共
+http://123.10.78.64:808/hls/24/index.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="河南",河南卫视
-http://106.46.38.28:808/hls/31/index.m3u8
-#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="河南",河南卫视
-http://182.46.8.33:8018/hls/62/index.m3u8
-#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="河南",河南卫视
-http://58.17.48.228:808/hls/55/index.m3u8
-#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="河南",河南卫视
-http://123.10.78.64:808/hls/17/index.m3u8
+http://110.241.189.72:808/hls/48/index.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="河南",河南卫视
 http://182.122.74.35:8089/hls/17/index.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="河南",河南卫视
-http://110.241.189.72:808/hls/48/index.m3u8
+http://123.10.78.64:808/hls/17/index.m3u8
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="河南",河南卫视
+http://110.241.188.205:808/hls/48/index.m3u8
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="河南",河南卫视
+http://182.46.8.33:8018/hls/62/index.m3u8
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="河南",河南卫视
+http://111.61.236.247:9081/hls/33/index.m3u8
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南卫视.png" group-title="河南",河南卫视
+http://58.17.48.228:808/hls/55/index.m3u8
 #EXTINF:-1 tvg-name="河南国际" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南国际.png" group-title="河南",河南国际
 http://123.10.78.64:808/hls/26/index.m3u8
-#EXTINF:-1 tvg-name="河南国际" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南国际.png" group-title="河南",河南国际
-http://123.10.78.185:808/hls/26/index.m3u8
-#EXTINF:-1 tvg-name="河南文物宝库" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南文物宝库.png" group-title="河南",河南文物宝库
-http://123.10.78.64:808/hls/28/index.m3u8
-#EXTINF:-1 tvg-name="河南新闻" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南新闻.png" group-title="河南",河南新闻
-http://123.10.78.64:808/hls/22/index.m3u8
 #EXTINF:-1 tvg-name="河南新闻" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南新闻.png" group-title="河南",河南新闻
 http://182.122.74.35:8089/hls/22/index.m3u8
+#EXTINF:-1 tvg-name="河南新闻" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南新闻.png" group-title="河南",河南新闻
+http://123.10.78.64:808/hls/22/index.m3u8
 #EXTINF:-1 tvg-name="河南梨园" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南梨园.png" group-title="河南",河南梨园
-http://123.10.78.185:808/hls/27/index.m3u8
+http://123.10.78.64:808/hls/27/index.m3u8
 #EXTINF:-1 tvg-name="河南武术世界" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南武术世界.png" group-title="河南",河南武术世界
 http://123.10.78.64:808/hls/29/index.m3u8
 #EXTINF:-1 tvg-name="河南民生" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南民生.png" group-title="河南",河南民生
+http://106.46.38.28:808/hls/33/index.m3u8
+#EXTINF:-1 tvg-name="河南民生" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南民生.png" group-title="河南",河南民生
 http://182.122.74.35:8089/hls/19/index.m3u8
+#EXTINF:-1 tvg-name="河南民生" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南民生.png" group-title="河南",河南民生
+http://123.10.78.64:808/hls/19/index.m3u8
 #EXTINF:-1 tvg-name="河南法制" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南法制.png" group-title="河南",河南法制
 http://106.46.38.28:808/hls/34/index.m3u8
 #EXTINF:-1 tvg-name="河南法治" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南法治.png" group-title="河南",河南法治
 http://182.122.74.35:8089/hls/20/index.m3u8
+#EXTINF:-1 tvg-name="河南法治" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南法治.png" group-title="河南",河南法治
+http://123.10.78.64:808/hls/20/index.m3u8
 #EXTINF:-1 tvg-name="河南电视剧" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南电视剧.png" group-title="河南",河南电视剧
 http://106.46.38.28:808/hls/35/index.m3u8
-#EXTINF:-1 tvg-name="河南电视剧" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南电视剧.png" group-title="河南",河南电视剧
-http://182.122.74.35:8089/hls/21/index.m3u8
 #EXTINF:-1 tvg-name="河南移动电视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南移动电视.png" group-title="河南",河南移动电视
 http://123.10.78.64:808/hls/31/index.m3u8
 #EXTINF:-1 tvg-name="河南都市" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南都市.png" group-title="河南",河南都市
 http://106.46.38.28:808/hls/32/index.m3u8
+#EXTINF:-1 tvg-name="河南都市" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南都市.png" group-title="河南",河南都市
+http://182.122.74.35:8089/hls/18/index.m3u8
+#EXTINF:-1 tvg-name="河南都市" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河南都市.png" group-title="河南",河南都市
+http://123.10.78.64:808/hls/18/index.m3u8
 #EXTINF:-1 tvg-name="浉河广电中心" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/浉河广电中心.png" group-title="河南",浉河广电中心
 http://106.46.38.28:808/hls/102/index.m3u8
 #EXTINF:-1 tvg-name="漯河公共" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/漯河公共.png" group-title="河南",漯河公共
 http://123.10.78.64:808/hls/78/index.m3u8
 #EXTINF:-1 tvg-name="漯河综合" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/漯河综合.png" group-title="河南",漯河综合
 http://123.10.78.64:808/hls/73/index.m3u8
-#EXTINF:-1 tvg-name="漯河综合" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/漯河综合.png" group-title="河南",漯河综合
-http://123.10.78.185:808/hls/73/index.m3u8
 #EXTINF:-1 tvg-name="QTV1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/QTV1.png" group-title="其他",QTV1
 http://182.46.8.33:8018/hls/32/index.m3u8
 #EXTINF:-1 tvg-name="QTV2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/QTV2.png" group-title="其他",QTV2
@@ -658,21 +628,17 @@ http://182.46.8.33:8018/hls/35/index.m3u8
 #EXTINF:-1 tvg-name="QTV5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/QTV5.png" group-title="其他",QTV5
 http://182.46.8.33:8018/hls/36/index.m3u8
 #EXTINF:-1 tvg-name="CGTN" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CGTN.png" group-title="其他",CGTN
-http://123.10.78.64:808/hls/16/index.m3u8
+http://111.61.236.247:9081/hls/16/index.m3u8
 #EXTINF:-1 tvg-name="CNTV" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CNTV.png" group-title="其他",CNTV
 http://106.46.38.28:808/hls/16/index.m3u8
-#EXTINF:-1 tvg-name="IPTV法制" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/IPTV法制.png" group-title="其他",IPTV法制
-http://123.10.78.64:808/hls/83/index.m3u8
-#EXTINF:-1 tvg-name="IPTV法制" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/IPTV法制.png" group-title="其他",IPTV法制
-http://123.10.78.185:808/hls/83/index.m3u8
-#EXTINF:-1 tvg-name="IPTV相声" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/IPTV相声.png" group-title="其他",IPTV相声
-http://123.10.78.64:808/hls/81/index.m3u8
 #EXTINF:-1 tvg-name="中国气象" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/中国气象.png" group-title="其他",中国气象
 http://182.46.8.33:8018/hls/39/index.m3u8
 #EXTINF:-1 tvg-name="军事" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/军事.png" group-title="其他",军事
 http://123.10.78.64:808/hls/93/index.m3u8
 #EXTINF:-1 tvg-name="国学" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/国学.png" group-title="其他",国学
 http://58.17.48.228:808/hls/30/index.m3u8
+#EXTINF:-1 tvg-name="国防军事" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/国防军事.png" group-title="其他",国防军事
+http://111.61.236.247:9081/hls/61/index.m3u8
 #EXTINF:-1 tvg-name="山东体育" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东体育.png" group-title="其他",山东体育
 http://182.46.8.33:8018/hls/22/index.m3u8
 #EXTINF:-1 tvg-name="山东公共" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东公共.png" group-title="其他",山东公共
@@ -688,27 +654,17 @@ http://182.46.8.33:8018/hls/18/index.m3u8
 #EXTINF:-1 tvg-name="山东齐鲁" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东齐鲁.png" group-title="其他",山东齐鲁
 http://182.46.8.33:8018/hls/17/index.m3u8
 #EXTINF:-1 tvg-name="岭南戏曲" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/岭南戏曲.png" group-title="其他",岭南戏曲
-http://113.86.205.62:8090/hls/22/index.m3u8
-#EXTINF:-1 tvg-name="岭南戏曲" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/岭南戏曲.png" group-title="其他",岭南戏曲
 http://113.86.205.62:808/hls/22/index.m3u8
 #EXTINF:-1 tvg-name="平桥广电中心" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/平桥广电中心.png" group-title="其他",平桥广电中心
 http://106.46.38.28:808/hls/103/index.m3u8
 #EXTINF:-1 tvg-name="广东体育" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东体育.png" group-title="其他",广东体育
-http://113.86.205.62:8090/hls/108/index.m3u8
-#EXTINF:-1 tvg-name="广东体育" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东体育.png" group-title="其他",广东体育
 http://113.86.205.62:808/hls/108/index.m3u8
 #EXTINF:-1 tvg-name="广东影视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东影视.png" group-title="其他",广东影视
-http://113.86.205.62:8090/hls/110/index.m3u8
-#EXTINF:-1 tvg-name="广东新闻" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东新闻.png" group-title="其他",广东新闻
-http://113.86.205.62:8090/hls/106/index.m3u8
+http://113.86.205.62:808/hls/110/index.m3u8
 #EXTINF:-1 tvg-name="广东新闻" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东新闻.png" group-title="其他",广东新闻
 http://113.86.205.62:808/hls/106/index.m3u8
 #EXTINF:-1 tvg-name="广东珠江" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东珠江.png" group-title="其他",广东珠江
-http://113.86.205.62:8090/hls/105/index.m3u8
-#EXTINF:-1 tvg-name="广东珠江" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东珠江.png" group-title="其他",广东珠江
 http://113.86.205.62:808/hls/105/index.m3u8
-#EXTINF:-1 tvg-name="广东经济科教" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东经济科教.png" group-title="其他",广东经济科教
-http://113.86.205.62:8090/hls/129/index.m3u8
 #EXTINF:-1 tvg-name="广东经济科教" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东经济科教.png" group-title="其他",广东经济科教
 http://113.86.205.62:808/hls/129/index.m3u8
 #EXTINF:-1 tvg-name="怀旧剧场" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/怀旧剧场.png" group-title="其他",怀旧剧场
@@ -717,78 +673,80 @@ http://110.241.189.72:808/hls/56/index.m3u8
 http://110.241.188.205:808/hls/56/index.m3u8
 #EXTINF:-1 tvg-name="戏曲" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/戏曲.png" group-title="其他",戏曲
 http://58.17.48.228:808/hls/9/index.m3u8
-#EXTINF:-1 tvg-name="收视指南" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/收视指南.png" group-title="其他",收视指南
-http://123.10.78.64:808/hls/75/index.m3u8
 #EXTINF:-1 tvg-name="文物宝库" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/文物宝库.png" group-title="其他",文物宝库
 http://123.13.152.209:808/hls/29/index.m3u8
+#EXTINF:-1 tvg-name="文物宝库" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/文物宝库.png" group-title="其他",文物宝库
+http://123.13.155.65:808/hls/29/index.m3u8
+#EXTINF:-1 tvg-name="文物宝库" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/文物宝库.png" group-title="其他",文物宝库
+http://111.61.236.247:9081/hls/64/index.m3u8
 #EXTINF:-1 tvg-name="梨园" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/梨园.png" group-title="其他",梨园
 http://123.13.152.209:808/hls/30/index.m3u8
+#EXTINF:-1 tvg-name="梨园" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/梨园.png" group-title="其他",梨园
+http://123.13.155.65:808/hls/30/index.m3u8
 #EXTINF:-1 tvg-name="武术" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/武术.png" group-title="其他",武术
 http://182.46.8.33:8018/hls/29/index.m3u8
 #EXTINF:-1 tvg-name="武术世界" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/武术世界.png" group-title="其他",武术世界
+http://123.13.155.65:808/hls/31/index.m3u8
+#EXTINF:-1 tvg-name="武术世界" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/武术世界.png" group-title="其他",武术世界
 http://123.13.152.209:808/hls/31/index.m3u8
+#EXTINF:-1 tvg-name="武术世界" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/武术世界.png" group-title="其他",武术世界
+http://111.61.236.247:9081/hls/60/index.m3u8
 #EXTINF:-1 tvg-name="江西七套" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江西七套.png" group-title="其他",江西七套
 http://58.17.48.228:808/hls/23/index.m3u8
-#EXTINF:-1 tvg-name="江西五套" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江西五套.png" group-title="其他",江西五套
-http://58.17.48.228:808/hls/21/index.m3u8
-#EXTINF:-1 tvg-name="江西四套" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江西四套.png" group-title="其他",江西四套
-http://58.17.48.228:808/hls/20/index.m3u8
+#EXTINF:-1 tvg-name="江西二套" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江西二套.png" group-title="其他",江西二套
+http://58.17.48.228:808/hls/18/index.m3u8
+#EXTINF:-1 tvg-name="江西六套" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江西六套.png" group-title="其他",江西六套
+http://58.17.48.228:808/hls/22/index.m3u8
 #EXTINF:-1 tvg-name="江西教育" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江西教育.png" group-title="其他",江西教育
 http://58.17.48.228:808/hls/25/index.m3u8
-#EXTINF:-1 tvg-name="河北公共" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北公共.png" group-title="其他",河北公共
-http://110.241.189.72:808/hls/62/index.m3u8
 #EXTINF:-1 tvg-name="河北公共" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北公共.png" group-title="其他",河北公共
 http://110.241.188.205:808/hls/62/index.m3u8
 #EXTINF:-1 tvg-name="河北农民" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北农民.png" group-title="其他",河北农民
 http://110.241.188.205:808/hls/63/index.m3u8
 #EXTINF:-1 tvg-name="河北影视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北影视.png" group-title="其他",河北影视
-http://110.241.189.72:808/hls/60/index.m3u8
-#EXTINF:-1 tvg-name="河北影视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北影视.png" group-title="其他",河北影视
 http://110.241.188.205:808/hls/60/index.m3u8
+#EXTINF:-1 tvg-name="河北影视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北影视.png" group-title="其他",河北影视
+http://111.61.236.247:9081/hls/20/index.m3u8
 #EXTINF:-1 tvg-name="河北经济" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北经济.png" group-title="其他",河北经济
-http://110.241.189.72:808/hls/58/index.m3u8
-#EXTINF:-1 tvg-name="河北都市" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北都市.png" group-title="其他",河北都市
-http://110.241.189.72:808/hls/59/index.m3u8
+http://110.241.188.205:808/hls/58/index.m3u8
+#EXTINF:-1 tvg-name="河北经济" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北经济.png" group-title="其他",河北经济
+http://111.61.236.247:9081/hls/18/index.m3u8
 #EXTINF:-1 tvg-name="河北都市" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北都市.png" group-title="其他",河北都市
 http://110.241.188.205:808/hls/59/index.m3u8
+#EXTINF:-1 tvg-name="河北都市" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北都市.png" group-title="其他",河北都市
+http://111.61.236.247:9081/hls/19/index.m3u8
 #EXTINF:-1 tvg-name="海看大片" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/海看大片.png" group-title="其他",海看大片
 http://182.46.8.33:8018/hls/60/index.m3u8
 #EXTINF:-1 tvg-name="湛江公共" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湛江公共.png" group-title="其他",湛江公共
-http://113.86.205.62:8090/hls/3/index.m3u8
-#EXTINF:-1 tvg-name="湛江公共" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湛江公共.png" group-title="其他",湛江公共
 http://113.86.205.62:808/hls/3/index.m3u8
+#EXTINF:-1 tvg-name="潍坊新闻" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/潍坊新闻.png" group-title="其他",潍坊新闻
+http://182.46.8.33:8018/hls/27/index.m3u8
 #EXTINF:-1 tvg-name="潍坊都市" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/潍坊都市.png" group-title="其他",潍坊都市
 http://182.46.8.33:8018/hls/28/index.m3u8
-#EXTINF:-1 tvg-name="热播剧场" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/热播剧场.png" group-title="其他",热播剧场
-http://123.10.78.64:808/hls/82/index.m3u8
 #EXTINF:-1 tvg-name="爱大剧" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/爱大剧.png" group-title="其他",爱大剧
 http://123.10.78.64:808/hls/101/index.m3u8
+#EXTINF:-1 tvg-name="环球奇观" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/环球奇观.png" group-title="其他",环球奇观
+http://111.61.236.247:9081/hls/63/index.m3u8
 #EXTINF:-1 tvg-name="监控" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/监控.png" group-title="其他",监控
 http://123.10.78.64:808/hls/87/index.m3u8
-#EXTINF:-1 tvg-name="监控" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/监控.png" group-title="其他",监控
-http://123.10.78.185:808/hls/87/index.m3u8
 #EXTINF:-1 tvg-name="美食天府" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/美食天府.png" group-title="其他",美食天府
 http://182.46.8.33:8018/hls/40/index.m3u8
-#EXTINF:-1 tvg-name="英张西口" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/英张西口.png" group-title="其他",英张西口
-http://123.10.78.64:808/hls/102/index.m3u8
-#EXTINF:-1 tvg-name="英张西口" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/英张西口.png" group-title="其他",英张西口
-http://123.10.78.185:808/hls/102/index.m3u8
-#EXTINF:-1 tvg-name="谍战剧场" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/谍战剧场.png" group-title="其他",谍战剧场
-http://182.46.8.33:8018/hls/81/index.m3u8
 #EXTINF:-1 tvg-name="谍战剧场" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/谍战剧场.png" group-title="其他",谍战剧场
 http://123.10.78.64:808/hls/80/index.m3u8
+#EXTINF:-1 tvg-name="谍战剧场" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/谍战剧场.png" group-title="其他",谍战剧场
+http://182.46.8.33:8018/hls/81/index.m3u8
+#EXTINF:-1 tvg-name="足球" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/足球.png" group-title="其他",足球
+http://123.13.155.65:808/hls/87/index.m3u8
 #EXTINF:-1 tvg-name="足球" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/足球.png" group-title="其他",足球
 http://123.13.152.209:808/hls/87/index.m3u8
-#EXTINF:-1 tvg-name="足球" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/足球.png" group-title="其他",足球
-http://110.241.189.72:808/hls/55/index.m3u8
 #EXTINF:-1 tvg-name="足球" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/足球.png" group-title="其他",足球
 http://110.241.188.205:808/hls/55/index.m3u8
 #EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/都市剧场.png" group-title="其他",都市剧场
 http://58.17.48.228:808/hls/67/index.m3u8
 #EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/金鹰纪实.png" group-title="其他",金鹰纪实
 http://123.10.78.64:808/hls/72/index.m3u8
-#EXTINF:-1 tvg-name="音乐现场" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/音乐现场.png" group-title="其他",音乐现场
-http://123.10.78.64:808/hls/85/index.m3u8
+#EXTINF:-1 tvg-name="陕西农林" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/陕西农林.png" group-title="其他",陕西农林
+http://58.17.48.228:808/hls/50/index.m3u8
 #EXTINF:-1 tvg-name="风云剧场" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/风云剧场.png" group-title="其他",风云剧场
 http://110.241.189.72:808/hls/57/index.m3u8
 #EXTINF:-1 tvg-name="风云剧场" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/风云剧场.png" group-title="其他",风云剧场
@@ -1019,4 +977,4 @@ http://111.43.126.240:9003/hls/103/index.m3u8
 http://111.43.126.240:9003/hls/104/index.m3u8
 #EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/金鹰卡通.png" group-title="搜集源",金鹰卡通
 http://111.43.126.240:9003/hls/73/index.m3u8
-#EXTINF:-1 group-title="更新时间",2025-05-31 06:28
+#EXTINF:-1 group-title="更新时间",2025-05-31 18:31
