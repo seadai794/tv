@@ -548,7 +548,7 @@ for url in valid_urls:
     try:
         # 发送GET请求获取JSON文件，设置超时时间为8秒
         json_url = f"{url}"
-        response = requests.get(json_url, timeout=8)
+        response = requests.get(json_url, timeout=3)
         json_data = response.content.decode('utf-8')
         try:
             # 按行分割数据
@@ -914,6 +914,7 @@ def generate_output_files(results):
         txt_file.write(f'\n更新时间,#genre#\n{current_time},\n')
 
 generate_output_files(results)
+
 
 
 
