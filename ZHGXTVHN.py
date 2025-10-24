@@ -6,7 +6,7 @@ import os
 import threading
 from queue import Queue
 import eventlet
-from datetime import datetime, timedelta
+from datetime import datetime
 
 eventlet.monkey_patch()
 
@@ -581,15 +581,12 @@ for url in valid_urls:
                         name = name.replace("(", "")
                         name = name.replace(")", "")
                         name = re.sub(r"CCTV(\d+)台", r"CCTV\1", name)
-                        name=re.sub(r'\b新农村\b', '河南乡村', name)
-                        name=re.sub(r'\b河南新农村\b', '河南乡村', name)
+                        name=re.sub(r'\b新农村\b', '河南新农村', name)
                         name = re.sub(r'\b电影\b', 'CHC影迷电影', name)
                         name = re.sub(r'\b动作影院\b', 'CHC动作电影', name)
                         name = re.sub(r'\b影院\b', 'CHC影迷电影', name)
                         name = re.sub(r'\b家庭影院\b', 'CHC家庭影院', name)
                         name = re.sub(r'\bCHC电影\b', 'CHC影迷电影', name)
-                        name = re.sub(r'\b动作电影\b', 'CHC动作电影', name)
-                        #name = re.sub(r'CCTV(10|12|14[12789])\+', r'CCTV\1', name)
                         name = re.sub(r'\b卡酷\b', '金鹰卡通', name)
                         name = name.replace("CCTV1综合", "CCTV1")
                         name = name.replace("CCTV一套", "CCTV1")
@@ -746,12 +743,12 @@ def generate_output_files(results):
     qitapd = ['CCTV'] + ['卫视'] + shaoerpd + dianyingpd + hnpd
 
     # 定义台标地址
-    taibiao = 'https://gitee.com/mytv-android/myTVlogo/raw/main/img/'
+    taibiao = 'https://live.fanmingming.cn/tv/'
     # 定义节目表地址
     jmb = 'https://live.fanmingming.cn/e.xml'
 
-    # current_time = datetime.now().strftime("%Y-%m-%d %H:%M")
-    current_time = (datetime.now() + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M")
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M")
+
     # 生成txt文件
     with open("itvlist.txt", 'w', encoding='utf-8') as file:
   
@@ -899,12 +896,12 @@ def generate_output_files(results):
             if len(parts) != 2:
                 continue
             name, url = parts
-            m3u_file.write(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{taibiao}{name}.png" group-title="搜集源",{name}\n{url}\n')
+            m3u_file.write(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{taibiao}{name}.png" group-title="香港",{name}\n{url}\n')
         m3u_file.write(f'#EXTINF:-1 group-title="更新时间",{current_time}\n')
 
     # 追加到txt文件
     with open("itvlist.txt", 'a', encoding='utf-8') as txt_file:
-        txt_file.write('\n搜集源,#genre#\n')
+        txt_file.write('\n香港,#genre#\n')
         for line in xg_lines:
             line = line.strip()
             if not line:
@@ -917,6 +914,7 @@ def generate_output_files(results):
         txt_file.write(f'\n更新时间,#genre#\n{current_time},\n')
 
 generate_output_files(results)
+
 
 
 
