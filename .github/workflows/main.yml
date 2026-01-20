@@ -1,8 +1,9 @@
 name: itvlist
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '0 10,22 * * *'
+    - cron: '0 10 * * *'
   push:
     branches:
       - main
@@ -10,28 +11,29 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set up Python 3.12.3
-        uses: actions/setup-python@v5
+        uses: actions/checkout@v2
+    
+      - name: Set up Python
+        uses: actions/setup-python@v2
         with:
           python-version: '3.12.3'
 
       - name: Install dependencies
-        run: pip install selenium requests futures eventlet aiohttp aiofiles
+          run: pip install selenium requests futures eventlet aiohttp aiofiles asyncio
 
+     
       - name: Run ZHGXTVHN
-        run: python ZHGXTVHN.py
-
-      - name: Commit and push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python ${{ github.workspace }}/ZHGXTVHN.py
+        
+           
+        
+      - name: 提交更改
         run: |
-          git config --global user.email "15857674@qq.com"
-          git config --global user.name "seadai794"
-          git add *.txt *.m3u
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-commit generated files"
-          git push
+          git config --local user.email "15857674@qq.com"
+          git config --local user.name "seadai794"
+          git add .
+          git commit *.txt -m "Add generated file"
+          git push -f
